@@ -26,7 +26,7 @@ If you like this project and if you want, make a donnation
 [![](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://streamlabs.com/techben-googlefanfr)
 
 ## Social Networks
-[![](https://img.shields.io/youtube/channel/subscribers/UC6iaEEz7A21SfmGcbImpYDw?color=red&style=social)]()
-[![](https://img.shields.io/twitter/follow/BFourmaux?style=social)]()
+[![](https://img.shields.io/youtube/channel/subscribers/UC6iaEEz7A21SfmGcbImpYDw?color=red&style=social)](https://www.youtube.com/channel/UC6iaEEz7A21SfmGcbImpYDw)
+[![](https://img.shields.io/twitter/follow/BFourmaux?style=social)](https://twitter.com/BFourmaux)
 
 [![](http://ForTheBadge.com/images/badges/built-with-love.svg)]()
