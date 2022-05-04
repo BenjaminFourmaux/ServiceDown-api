@@ -1,4 +1,5 @@
 .env
 .env.local
 .idea
-__pycache__git
+__pycache__git/
+__pycache__/
