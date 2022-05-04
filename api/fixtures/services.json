@@ -1,0 +1,11 @@
+[
+   {
+    "model": "api.service",
+    "pk": 1,
+    "fields": {
+      "name": "Country Test",
+      "shortname": "CT",
+      "domainSuffix": "ct"
+    }
+  }
+]

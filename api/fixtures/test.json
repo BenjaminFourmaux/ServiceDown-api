@@ -1,0 +1,21 @@
+[
+  {
+    "model": "service_down_api.api.country",
+    "pk": 1,
+    "fields": {
+      "name": "Country Test",
+      "shortname": "CT",
+      "domainSuffix": "ct"
+    }
+  },
+  {
+    "model": "service_down_api.api.service",
+    "pk": 1,
+    "fields": {
+      "name": "test service",
+      "cname": "TESTSERVICE",
+      "path": "/test_service",
+      "countries": [1]
+    }
+  }
+]

@@ -1,2 +1,4 @@
 .env
 .env.local
+.idea
+__pycache__git
