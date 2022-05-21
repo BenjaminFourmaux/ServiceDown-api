@@ -3,9 +3,12 @@
     "model": "api.service",
     "pk": 1,
     "fields": {
-      "name": "Country Test",
-      "shortname": "CT",
-      "domainSuffix": "ct"
+      "name": "Service Test",
+      "cname": "ST",
+      "description": "Is a test service",
+      "website": "https://www.service-test.com",
+      "twitterUsername": "Service_Test",
+      "countries": [1]
     }
   }
 ]

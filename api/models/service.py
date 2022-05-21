@@ -10,6 +10,8 @@ class Service(models.Model):
     cname = models.CharField(max_length=255, null=False)
     description = models.TextField(max_length=300, null=True)
     path = models.URLField(max_length=100, null=False)
+    website = models.URLField(null=True)
+    twitterUsername = models.CharField(max_length=100, null=True)
     countries = models.ManyToManyField(Country)
 
     def __str__(self):
