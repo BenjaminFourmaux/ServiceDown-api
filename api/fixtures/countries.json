@@ -403,7 +403,7 @@
         "model":"api.country",
         "pk":51,
         "fields":{
-            "name":"Congo, The Democratic Republic of the",
+            "name":"The Democratic Republic of the Congo",
             "shortname":"CD"
         }
     },

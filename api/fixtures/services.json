@@ -8,7 +8,7 @@
       "description": "Is a test service",
       "website": "https://www.service-test.com",
       "twitterUsername": "Service_Test",
-      "countries": [1]
+      "countries": [1,2]
     }
   }
 ]

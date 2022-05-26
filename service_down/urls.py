@@ -17,7 +17,7 @@ from django.views.generic import RedirectView
 from drf_yasg.views import get_schema_view
 from drf_yasg import openapi
 from rest_framework.routers import DefaultRouter
-from api.views import TestViewSet
+from api.views import TestViewSet, CountryViewSet
 from django.urls import path, re_path, include
 
 schema_view = get_schema_view(
@@ -35,6 +35,7 @@ router = DefaultRouter(trailing_slash=False)
 
 # Route register
 router.register('test', TestViewSet, basename='pingViewSet')
+router.register('country', CountryViewSet, basename='countryViewSet')
 
 urlpatterns = [
     re_path('', include(router.urls)),
