@@ -4,7 +4,8 @@
         "pk":1,
         "fields":{
             "name":"Afghanistan",
-            "shortname":"AF"
+            "shortname":"AF",
+            "domainSuffix": "af"
         }
     },
     {
@@ -12,7 +13,8 @@
         "pk":2,
         "fields":{
             "name":"\u00c5land Islands",
-            "shortname":"AX"
+            "shortname":"AX",
+            "domainSuffix": "ax"
         }
     },
     {
@@ -20,7 +22,8 @@
         "pk":3,
         "fields":{
             "name":"Albania",
-            "shortname":"AL"
+            "shortname":"AL",
+            "domainSuffix": "al"
         }
     },
     {
@@ -28,7 +31,8 @@
         "pk":4,
         "fields":{
             "name":"Algeria",
-            "shortname":"DZ"
+            "shortname":"DZ",
+            "domainSuffix": "dz"
         }
     },
     {
@@ -36,15 +40,17 @@
         "pk":5,
         "fields":{
             "name":"American Samoa",
-            "shortname":"AS"
+            "shortname":"AS",
+            "domainSuffix": "as"
         }
     },
     {
         "model":"api.country",
         "pk":6,
         "fields":{
-            "name":"AndorrA",
-            "shortname":"AD"
+            "name":"Andorra",
+            "shortname":"AD",
+            "domainSuffix": "ad"
         }
     },
     {
@@ -52,7 +58,8 @@
         "pk":7,
         "fields":{
             "name":"Angola",
-            "shortname":"AO"
+            "shortname":"AO",
+            "domainSuffix": "ao"
         }
     },
     {
@@ -60,7 +67,8 @@
         "pk":8,
         "fields":{
             "name":"Anguilla",
-            "shortname":"AI"
+            "shortname":"AI",
+            "domainSuffix": "ai"
         }
     },
     {
@@ -68,7 +76,8 @@
         "pk":9,
         "fields":{
             "name":"Antarctica",
-            "shortname":"AQ"
+            "shortname":"AQ",
+            "domainSuffix": "aq"
         }
     },
     {
@@ -76,7 +85,8 @@
         "pk":10,
         "fields":{
             "name":"Antigua and Barbuda",
-            "shortname":"AG"
+            "shortname":"AG",
+            "domainSuffix": "ag"
         }
     },
     {
@@ -84,7 +94,8 @@
         "pk":11,
         "fields":{
             "name":"Argentina",
-            "shortname":"AR"
+            "shortname":"AR",
+            "domainSuffix": "ar"
         }
     },
     {
@@ -92,7 +103,8 @@
         "pk":12,
         "fields":{
             "name":"Armenia",
-            "shortname":"AM"
+            "shortname":"AM",
+            "domainSuffix": "am"
         }
     },
     {
@@ -100,7 +112,8 @@
         "pk":13,
         "fields":{
             "name":"Aruba",
-            "shortname":"AW"
+            "shortname":"AW",
+            "domainSuffix": "aw"
         }
     },
     {
@@ -108,7 +121,8 @@
         "pk":14,
         "fields":{
             "name":"Australia",
-            "shortname":"AU"
+            "shortname":"AU",
+            "domainSuffix": "au"
         }
     },
     {
@@ -116,7 +130,8 @@
         "pk":15,
         "fields":{
             "name":"Austria",
-            "shortname":"AT"
+            "shortname":"AT",
+            "domainSuffix": "at"
         }
     },
     {
@@ -124,7 +139,8 @@
         "pk":16,
         "fields":{
             "name":"Azerbaijan",
-            "shortname":"AZ"
+            "shortname":"AZ",
+            "domainSuffix": "az"
         }
     },
     {
@@ -132,7 +148,8 @@
         "pk":17,
         "fields":{
             "name":"Bahamas",
-            "shortname":"BS"
+            "shortname":"BS",
+            "domainSuffix": "bs"
         }
     },
     {
@@ -140,7 +157,8 @@
         "pk":18,
         "fields":{
             "name":"Bahrain",
-            "shortname":"BH"
+            "shortname":"BH",
+            "domainSuffix": "bh"
         }
     },
     {
@@ -148,7 +166,8 @@
         "pk":19,
         "fields":{
             "name":"Bangladesh",
-            "shortname":"BD"
+            "shortname":"BD",
+            "domainSuffix": "bd"
         }
     },
     {
@@ -156,7 +175,8 @@
         "pk":20,
         "fields":{
             "name":"Barbados",
-            "shortname":"BB"
+            "shortname":"BB",
+            "domainSuffix": "bb"
         }
     },
     {
@@ -164,7 +184,8 @@
         "pk":21,
         "fields":{
             "name":"Belarus",
-            "shortname":"BY"
+            "shortname":"BY",
+            "domainSuffix": "by"
         }
     },
     {
@@ -172,7 +193,8 @@
         "pk":22,
         "fields":{
             "name":"Belgium",
-            "shortname":"BE"
+            "shortname":"BE",
+            "domainSuffix": "be"
         }
     },
     {
@@ -180,7 +202,8 @@
         "pk":23,
         "fields":{
             "name":"Belize",
-            "shortname":"BZ"
+            "shortname":"BZ",
+            "domainSuffix": "bz"
         }
     },
     {
@@ -188,7 +211,8 @@
         "pk":24,
         "fields":{
             "name":"Benin",
-            "shortname":"BJ"
+            "shortname":"BJ",
+            "domainSuffix": "bj"
         }
     },
     {
@@ -196,7 +220,8 @@
         "pk":25,
         "fields":{
             "name":"Bermuda",
-            "shortname":"BM"
+            "shortname":"BM",
+            "domainSuffix": "bm"
         }
     },
     {
@@ -204,7 +229,8 @@
         "pk":26,
         "fields":{
             "name":"Bhutan",
-            "shortname":"BT"
+            "shortname":"BT",
+            "domainSuffix": "bt"
         }
     },
     {
@@ -212,7 +238,8 @@
         "pk":27,
         "fields":{
             "name":"Bolivia",
-            "shortname":"BO"
+            "shortname":"BO",
+            "domainSuffix":"bo"
         }
     },
     {
@@ -220,7 +247,8 @@
         "pk":28,
         "fields":{
             "name":"Bosnia and Herzegovina",
-            "shortname":"BA"
+            "shortname":"BA",
+            "domainSuffix": "ba"
         }
     },
     {
@@ -228,7 +256,8 @@
         "pk":29,
         "fields":{
             "name":"Botswana",
-            "shortname":"BW"
+            "shortname":"BW",
+            "domainSuffix": "bw"
         }
     },
     {
@@ -236,7 +265,8 @@
         "pk":30,
         "fields":{
             "name":"Bouvet Island",
-            "shortname":"BV"
+            "shortname":"BV",
+            "domainSuffix": "bv"
         }
     },
     {
@@ -244,7 +274,8 @@
         "pk":31,
         "fields":{
             "name":"Brazil",
-            "shortname":"BR"
+            "shortname":"BR",
+            "domainSuffix": "br"
         }
     },
     {
@@ -252,7 +283,8 @@
         "pk":32,
         "fields":{
             "name":"British Indian Ocean Territory",
-            "shortname":"IO"
+            "shortname":"IO",
+            "domainSuffix": "io"
         }
     },
     {
@@ -260,7 +292,8 @@
         "pk":33,
         "fields":{
             "name":"Brunei Darussalam",
-            "shortname":"BN"
+            "shortname":"BN",
+            "domainSuffix": "bn"
         }
     },
     {
@@ -268,7 +301,8 @@
         "pk":34,
         "fields":{
             "name":"Bulgaria",
-            "shortname":"BG"
+            "shortname":"BG",
+            "domainSuffix": "bg"
         }
     },
     {
@@ -276,7 +310,8 @@
         "pk":35,
         "fields":{
             "name":"Burkina Faso",
-            "shortname":"BF"
+            "shortname":"BF",
+            "domainSuffix": "bf"
         }
     },
     {
@@ -284,7 +319,8 @@
         "pk":36,
         "fields":{
             "name":"Burundi",
-            "shortname":"BI"
+            "shortname":"BI",
+            "domainSuffix": "bi"
         }
     },
     {
@@ -292,7 +328,8 @@
         "pk":37,
         "fields":{
             "name":"Cambodia",
-            "shortname":"KH"
+            "shortname":"KH",
+            "domainSuffix": "kh"
         }
     },
     {
@@ -300,7 +337,8 @@
         "pk":38,
         "fields":{
             "name":"Cameroon",
-            "shortname":"CM"
+            "shortname":"CM",
+            "domainSuffix": "cm"
         }
     },
     {
@@ -308,7 +346,8 @@
         "pk":39,
         "fields":{
             "name":"Canada",
-            "shortname":"CA"
+            "shortname":"CA",
+            "domainSuffix": "ca"
         }
     },
     {
@@ -316,7 +355,8 @@
         "pk":40,
         "fields":{
             "name":"Cape Verde",
-            "shortname":"CV"
+            "shortname":"CV",
+            "domainSuffix": "cv"
         }
     },
     {
@@ -324,7 +364,8 @@
         "pk":41,
         "fields":{
             "name":"Cayman Islands",
-            "shortname":"KY"
+            "shortname":"KY",
+            "domainSuffix": "ky"
         }
     },
     {
@@ -332,7 +373,8 @@
         "pk":42,
         "fields":{
             "name":"Central African Republic",
-            "shortname":"CF"
+            "shortname":"CF",
+            "domainSuffix": "cf"
         }
     },
     {
@@ -340,7 +382,8 @@
         "pk":43,
         "fields":{
             "name":"Chad",
-            "shortname":"TD"
+            "shortname":"TD",
+            "domainSuffix": "td"
         }
     },
     {
@@ -348,7 +391,8 @@
         "pk":44,
         "fields":{
             "name":"Chile",
-            "shortname":"CL"
+            "shortname":"CL",
+            "domainSuffix": "cl"
         }
     },
     {
@@ -356,7 +400,8 @@
         "pk":45,
         "fields":{
             "name":"China",
-            "shortname":"CN"
+            "shortname":"CN",
+            "domainSuffix": "cn"
         }
     },
     {
@@ -364,7 +409,8 @@
         "pk":46,
         "fields":{
             "name":"Christmas Island",
-            "shortname":"CX"
+            "shortname":"CX",
+            "domainSuffix": "cx"
         }
     },
     {
@@ -372,7 +418,8 @@
         "pk":47,
         "fields":{
             "name":"Cocos (Keeling) Islands",
-            "shortname":"CC"
+            "shortname":"CC",
+            "domainSuffix": "cc"
         }
     },
     {
@@ -380,7 +427,8 @@
         "pk":48,
         "fields":{
             "name":"Colombia",
-            "shortname":"CO"
+            "shortname":"CO",
+            "domainSuffix": "co"
         }
     },
     {
@@ -388,7 +436,8 @@
         "pk":49,
         "fields":{
             "name":"Comoros",
-            "shortname":"KM"
+            "shortname":"KM",
+            "domainSuffix": "km"
         }
     },
     {
@@ -396,15 +445,17 @@
         "pk":50,
         "fields":{
             "name":"Congo",
-            "shortname":"CG"
+            "shortname":"CG",
+            "domainSuffix": "cg"
         }
     },
     {
         "model":"api.country",
         "pk":51,
         "fields":{
-            "name":"Congo, The Democratic Republic of the",
-            "shortname":"CD"
+            "name":"The Democratic Republic of the Congo",
+            "shortname":"CD",
+            "domainSuffix": "cd"
         }
     },
     {
@@ -412,7 +463,8 @@
         "pk":52,
         "fields":{
             "name":"Cook Islands",
-            "shortname":"CK"
+            "shortname":"CK",
+            "domainSuffix": "ck"
         }
     },
     {
@@ -420,7 +472,8 @@
         "pk":53,
         "fields":{
             "name":"Costa Rica",
-            "shortname":"CR"
+            "shortname":"CR",
+            "domainSuffix": "cr"
         }
     },
     {
@@ -428,7 +481,8 @@
         "pk":54,
         "fields":{
             "name":"Cote D\\'Ivoire",
-            "shortname":"CI"
+            "shortname":"CI",
+            "domainSuffix": "ci"
         }
     },
     {
@@ -436,7 +490,8 @@
         "pk":55,
         "fields":{
             "name":"Croatia",
-            "shortname":"HR"
+            "shortname":"HR",
+            "domainSuffix": "hr"
         }
     },
     {
@@ -444,7 +499,8 @@
         "pk":56,
         "fields":{
             "name":"Cuba",
-            "shortname":"CU"
+            "shortname":"CU",
+            "domainSuffix": "cu"
         }
     },
     {
@@ -452,7 +508,8 @@
         "pk":57,
         "fields":{
             "name":"Cyprus",
-            "shortname":"CY"
+            "shortname":"CY",
+            "domainSuffix": "cy"
         }
     },
     {
@@ -460,7 +517,8 @@
         "pk":58,
         "fields":{
             "name":"Czech Republic",
-            "shortname":"CZ"
+            "shortname":"CZ",
+            "domainSuffix": "cz"
         }
     },
     {
@@ -468,7 +526,8 @@
         "pk":59,
         "fields":{
             "name":"Denmark",
-            "shortname":"DK"
+            "shortname":"DK",
+            "domainSuffix": "dk"
         }
     },
     {
@@ -476,7 +535,8 @@
         "pk":60,
         "fields":{
             "name":"Djibouti",
-            "shortname":"DJ"
+            "shortname":"DJ",
+            "domainSuffix": "dj"
         }
     },
     {
@@ -484,7 +544,8 @@
         "pk":61,
         "fields":{
             "name":"Dominica",
-            "shortname":"DM"
+            "shortname":"DM",
+            "domainSuffix": "dm"
         }
     },
     {
@@ -492,7 +553,8 @@
         "pk":62,
         "fields":{
             "name":"Dominican Republic",
-            "shortname":"DO"
+            "shortname":"DO",
+            "domainSuffix": "do"
         }
     },
     {
@@ -500,7 +562,8 @@
         "pk":63,
         "fields":{
             "name":"Ecuador",
-            "shortname":"EC"
+            "shortname":"EC",
+            "domainSuffix": "ec"
         }
     },
     {
@@ -508,7 +571,8 @@
         "pk":64,
         "fields":{
             "name":"Egypt",
-            "shortname":"EG"
+            "shortname":"EG",
+            "domainSuffix": "eg"
         }
     },
     {
@@ -516,7 +580,8 @@
         "pk":65,
         "fields":{
             "name":"El Salvador",
-            "shortname":"SV"
+            "shortname":"SV",
+            "domainSuffix": "sv"
         }
     },
     {
@@ -524,7 +589,8 @@
         "pk":66,
         "fields":{
             "name":"Equatorial Guinea",
-            "shortname":"GQ"
+            "shortname":"GQ",
+            "domainSuffix": "gq"
         }
     },
     {
@@ -532,7 +598,8 @@
         "pk":67,
         "fields":{
             "name":"Eritrea",
-            "shortname":"ER"
+            "shortname":"ER",
+            "domainSuffix": "er"
         }
     },
     {
@@ -540,7 +607,8 @@
         "pk":68,
         "fields":{
             "name":"Estonia",
-            "shortname":"EE"
+            "shortname":"EE",
+            "domainSuffix": "ee"
         }
     },
     {
@@ -548,7 +616,8 @@
         "pk":69,
         "fields":{
             "name":"Ethiopia",
-            "shortname":"ET"
+            "shortname":"ET",
+            "domainSuffix": "et"
         }
     },
     {
@@ -556,7 +625,8 @@
         "pk":70,
         "fields":{
             "name":"Falkland Islands (Malvinas)",
-            "shortname":"FK"
+            "shortname":"FK",
+            "domainSuffix": "fk"
         }
     },
     {
@@ -564,7 +634,8 @@
         "pk":71,
         "fields":{
             "name":"Faroe Islands",
-            "shortname":"FO"
+            "shortname":"FO",
+            "domainSuffix": "fo"
         }
     },
     {
@@ -572,7 +643,8 @@
         "pk":72,
         "fields":{
             "name":"Fiji",
-            "shortname":"FJ"
+            "shortname":"FJ",
+            "domainSuffix": "fj"
         }
     },
     {
@@ -580,7 +652,8 @@
         "pk":73,
         "fields":{
             "name":"Finland",
-            "shortname":"FI"
+            "shortname":"FI",
+            "domainSuffix": "fi"
         }
     },
     {
@@ -588,7 +661,9 @@
         "pk":74,
         "fields":{
             "name":"France",
-            "shortname":"FR"
+            "shortname":"FR",
+            "domainSuffix": "fr",
+            "isAvailable": true
         }
     },
     {
@@ -596,7 +671,8 @@
         "pk":75,
         "fields":{
             "name":"French Guiana",
-            "shortname":"GF"
+            "shortname":"GF",
+            "domainSuffix": "gf"
         }
     },
     {
@@ -604,7 +680,8 @@
         "pk":76,
         "fields":{
             "name":"French Polynesia",
-            "shortname":"PF"
+            "shortname":"PF",
+            "domainSuffix": "pf"
         }
     },
     {
@@ -612,7 +689,8 @@
         "pk":77,
         "fields":{
             "name":"French Southern Territories",
-            "shortname":"TF"
+            "shortname":"TF",
+            "domainSuffix": "tf"
         }
     },
     {
@@ -620,7 +698,8 @@
         "pk":78,
         "fields":{
             "name":"Gabon",
-            "shortname":"GA"
+            "shortname":"GA",
+            "domainSuffix": "ga"
         }
     },
     {
@@ -628,7 +707,8 @@
         "pk":79,
         "fields":{
             "name":"Gambia",
-            "shortname":"GM"
+            "shortname":"GM",
+            "domainSuffix": "gm"
         }
     },
     {
@@ -636,7 +716,8 @@
         "pk":80,
         "fields":{
             "name":"Georgia",
-            "shortname":"GE"
+            "shortname":"GE",
+            "domainSuffix": "ge"
         }
     },
     {
@@ -644,7 +725,8 @@
         "pk":81,
         "fields":{
             "name":"Germany",
-            "shortname":"DE"
+            "shortname":"DE",
+            "domainSuffix": "de"
         }
     },
     {
@@ -652,7 +734,8 @@
         "pk":82,
         "fields":{
             "name":"Ghana",
-            "shortname":"GH"
+            "shortname":"GH",
+            "domainSuffix": "gh"
         }
     },
     {
@@ -660,7 +743,8 @@
         "pk":83,
         "fields":{
             "name":"Gibraltar",
-            "shortname":"GI"
+            "shortname":"GI",
+            "domainSuffix": "gi"
         }
     },
     {
@@ -668,7 +752,8 @@
         "pk":84,
         "fields":{
             "name":"Greece",
-            "shortname":"GR"
+            "shortname":"GR",
+            "domainSuffix": "gr"
         }
     },
     {
@@ -676,7 +761,8 @@
         "pk":85,
         "fields":{
             "name":"Greenland",
-            "shortname":"GL"
+            "shortname":"GL",
+            "domainSuffix": "gl"
         }
     },
     {
@@ -684,7 +770,8 @@
         "pk":86,
         "fields":{
             "name":"Grenada",
-            "shortname":"GD"
+            "shortname":"GD",
+            "domainSuffix": "gd"
         }
     },
     {
@@ -692,7 +779,8 @@
         "pk":87,
         "fields":{
             "name":"Guadeloupe",
-            "shortname":"GP"
+            "shortname":"GP",
+            "domainSuffix": "gp"
         }
     },
     {
@@ -700,7 +788,8 @@
         "pk":88,
         "fields":{
             "name":"Guam",
-            "shortname":"GU"
+            "shortname":"GU",
+            "domainSuffix": "gu"
         }
     },
     {
@@ -708,7 +797,8 @@
         "pk":89,
         "fields":{
             "name":"Guatemala",
-            "shortname":"GT"
+            "shortname":"GT",
+            "domainSuffix": "gt"
         }
     },
     {
@@ -716,7 +806,8 @@
         "pk":90,
         "fields":{
             "name":"Guernsey",
-            "shortname":"GG"
+            "shortname":"GG",
+            "domainSuffix": "gg"
         }
     },
     {
@@ -724,7 +815,8 @@
         "pk":91,
         "fields":{
             "name":"Guinea",
-            "shortname":"GN"
+            "shortname":"GN",
+            "domainSuffix": "gn"
         }
     },
     {
@@ -732,7 +824,8 @@
         "pk":92,
         "fields":{
             "name":"Guinea-Bissau",
-            "shortname":"GW"
+            "shortname":"GW",
+            "domainSuffix": "gw"
         }
     },
     {
@@ -740,7 +833,8 @@
         "pk":93,
         "fields":{
             "name":"Guyana",
-            "shortname":"GY"
+            "shortname":"GY",
+            "domainSuffix": "gy"
         }
     },
     {
@@ -748,7 +842,8 @@
         "pk":94,
         "fields":{
             "name":"Haiti",
-            "shortname":"HT"
+            "shortname":"HT",
+            "domainSuffix": "ht"
         }
     },
     {
@@ -756,7 +851,8 @@
         "pk":95,
         "fields":{
             "name":"Heard Island and Mcdonald Islands",
-            "shortname":"HM"
+            "shortname":"HM",
+            "domainSuffix": "hm"
         }
     },
     {
@@ -764,7 +860,8 @@
         "pk":96,
         "fields":{
             "name":"Holy See (Vatican City State)",
-            "shortname":"VA"
+            "shortname":"VA",
+            "domainSuffix": "va"
         }
     },
     {
@@ -772,7 +869,8 @@
         "pk":97,
         "fields":{
             "name":"Honduras",
-            "shortname":"HN"
+            "shortname":"HN",
+            "domainSuffix": "hn"
         }
     },
     {
@@ -780,7 +878,8 @@
         "pk":98,
         "fields":{
             "name":"Hong Kong",
-            "shortname":"HK"
+            "shortname":"HK",
+            "domainSuffix": "hk"
         }
     },
     {
@@ -788,7 +887,8 @@
         "pk":99,
         "fields":{
             "name":"Hungary",
-            "shortname":"HU"
+            "shortname":"HU",
+            "domainSuffix": "hu"
         }
     },
     {
@@ -796,7 +896,8 @@
         "pk":100,
         "fields":{
             "name":"Iceland",
-            "shortname":"IS"
+            "shortname":"IS",
+            "domainSuffix": "is"
         }
     },
     {
@@ -804,7 +905,8 @@
         "pk":101,
         "fields":{
             "name":"India",
-            "shortname":"IN"
+            "shortname":"IN",
+            "domainSuffix": "in"
         }
     },
     {
@@ -812,7 +914,8 @@
         "pk":102,
         "fields":{
             "name":"Indonesia",
-            "shortname":"ID"
+            "shortname":"ID",
+            "domainSuffix": "id"
         }
     },
     {
@@ -820,7 +923,8 @@
         "pk":103,
         "fields":{
             "name":"Iran, Islamic Republic Of",
-            "shortname":"IR"
+            "shortname":"IR",
+            "domainSuffix": "ir"
         }
     },
     {
@@ -828,7 +932,8 @@
         "pk":104,
         "fields":{
             "name":"Iraq",
-            "shortname":"IQ"
+            "shortname":"IQ",
+            "domainSuffix": "iq"
         }
     },
     {
@@ -836,7 +941,8 @@
         "pk":105,
         "fields":{
             "name":"Ireland",
-            "shortname":"IE"
+            "shortname":"IE",
+            "domainSuffix": "ie"
         }
     },
     {
@@ -844,7 +950,8 @@
         "pk":106,
         "fields":{
             "name":"Isle of Man",
-            "shortname":"IM"
+            "shortname":"IM",
+            "domainSuffix": "in"
         }
     },
     {
@@ -852,7 +959,8 @@
         "pk":107,
         "fields":{
             "name":"Israel",
-            "shortname":"IL"
+            "shortname":"IL",
+            "domainSuffix": "il"
         }
     },
     {
@@ -860,7 +968,8 @@
         "pk":108,
         "fields":{
             "name":"Italy",
-            "shortname":"IT"
+            "shortname":"IT",
+            "domainSuffix": "it"
         }
     },
     {
@@ -868,7 +977,8 @@
         "pk":109,
         "fields":{
             "name":"Jamaica",
-            "shortname":"JM"
+            "shortname":"JM",
+            "domainSuffix": "jm"
         }
     },
     {
@@ -876,7 +986,8 @@
         "pk":110,
         "fields":{
             "name":"Japan",
-            "shortname":"JP"
+            "shortname":"JP",
+            "domainSuffix": "jp"
         }
     },
     {
@@ -884,7 +995,8 @@
         "pk":111,
         "fields":{
             "name":"Jersey",
-            "shortname":"JE"
+            "shortname":"JE",
+            "domainSuffix": "je"
         }
     },
     {
@@ -892,7 +1004,8 @@
         "pk":112,
         "fields":{
             "name":"Jordan",
-            "shortname":"JO"
+            "shortname":"JO",
+            "domainSuffix": "jo"
         }
     },
     {
@@ -900,7 +1013,8 @@
         "pk":113,
         "fields":{
             "name":"Kazakhstan",
-            "shortname":"KZ"
+            "shortname":"KZ",
+            "domainSuffix": "kz"
         }
     },
     {
@@ -908,7 +1022,8 @@
         "pk":114,
         "fields":{
             "name":"Kenya",
-            "shortname":"KE"
+            "shortname":"KE",
+            "domainSuffix": "ke"
         }
     },
     {
@@ -916,7 +1031,8 @@
         "pk":115,
         "fields":{
             "name":"Kiribati",
-            "shortname":"KI"
+            "shortname":"KI",
+            "domainSuffix": "ki"
         }
     },
     {
@@ -924,7 +1040,8 @@
         "pk":116,
         "fields":{
             "name":"Korea, Democratic People\\'S Republic of",
-            "shortname":"KP"
+            "shortname":"KP",
+            "domainSuffix": "kp"
         }
     },
     {
@@ -932,7 +1049,8 @@
         "pk":117,
         "fields":{
             "name":"Korea, Republic of",
-            "shortname":"KR"
+            "shortname":"KR",
+            "domainSuffix": "kr"
         }
     },
     {
@@ -940,7 +1058,8 @@
         "pk":118,
         "fields":{
             "name":"Kuwait",
-            "shortname":"KW"
+            "shortname":"KW",
+            "domainSuffix": "kw"
         }
     },
     {
@@ -948,7 +1067,8 @@
         "pk":119,
         "fields":{
             "name":"Kyrgyzstan",
-            "shortname":"KG"
+            "shortname":"KG",
+            "domainSuffix": "kg"
         }
     },
     {
@@ -956,7 +1076,8 @@
         "pk":120,
         "fields":{
             "name":"Lao People\\'S Democratic Republic",
-            "shortname":"LA"
+            "shortname":"LA",
+            "domainSuffix": "la"
         }
     },
     {
@@ -964,7 +1085,8 @@
         "pk":121,
         "fields":{
             "name":"Latvia",
-            "shortname":"LV"
+            "shortname":"LV",
+            "domainSuffix": "lv"
         }
     },
     {
@@ -972,7 +1094,8 @@
         "pk":122,
         "fields":{
             "name":"Lebanon",
-            "shortname":"LB"
+            "shortname":"LB",
+            "domainSuffix": "lb"
         }
     },
     {
@@ -980,7 +1103,8 @@
         "pk":123,
         "fields":{
             "name":"Lesotho",
-            "shortname":"LS"
+            "shortname":"LS",
+            "domainSuffix": "ls"
         }
     },
     {
@@ -988,7 +1112,8 @@
         "pk":124,
         "fields":{
             "name":"Liberia",
-            "shortname":"LR"
+            "shortname":"LR",
+            "domainSuffix": "lr"
         }
     },
     {
@@ -996,7 +1121,8 @@
         "pk":125,
         "fields":{
             "name":"Libyan Arab Jamahiriya",
-            "shortname":"LY"
+            "shortname":"LY",
+            "domainSuffix": "ly"
         }
     },
     {
@@ -1004,7 +1130,8 @@
         "pk":126,
         "fields":{
             "name":"Liechtenstein",
-            "shortname":"LI"
+            "shortname":"LI",
+            "domainSuffix": "li"
         }
     },
     {
@@ -1012,7 +1139,8 @@
         "pk":127,
         "fields":{
             "name":"Lithuania",
-            "shortname":"LT"
+            "shortname":"LT",
+            "domainSuffix": "lt"
         }
     },
     {
@@ -1020,7 +1148,8 @@
         "pk":128,
         "fields":{
             "name":"Luxembourg",
-            "shortname":"LU"
+            "shortname":"LU",
+            "domainSuffix": "lu"
         }
     },
     {
@@ -1028,7 +1157,8 @@
         "pk":129,
         "fields":{
             "name":"Macao",
-            "shortname":"MO"
+            "shortname":"MO",
+            "domainSuffix": "mo"
         }
     },
     {
@@ -1036,7 +1166,8 @@
         "pk":130,
         "fields":{
             "name":"Macedonia, The Former Yugoslav Republic of",
-            "shortname":"MK"
+            "shortname":"MK",
+            "domainSuffix": "mk"
         }
     },
     {
@@ -1044,7 +1175,8 @@
         "pk":131,
         "fields":{
             "name":"Madagascar",
-            "shortname":"MG"
+            "shortname":"MG",
+            "domainSuffix": "mg"
         }
     },
     {
@@ -1052,7 +1184,8 @@
         "pk":132,
         "fields":{
             "name":"Malawi",
-            "shortname":"MW"
+            "shortname":"MW",
+            "domainSuffix": "mw"
         }
     },
     {
@@ -1060,7 +1193,8 @@
         "pk":133,
         "fields":{
             "name":"Malaysia",
-            "shortname":"MY"
+            "shortname":"MY",
+            "domainSuffix": "my"
         }
     },
     {
@@ -1068,7 +1202,8 @@
         "pk":134,
         "fields":{
             "name":"Maldives",
-            "shortname":"MV"
+            "shortname":"MV",
+            "domainSuffix": "mv"
         }
     },
     {
@@ -1076,7 +1211,8 @@
         "pk":135,
         "fields":{
             "name":"Mali",
-            "shortname":"ML"
+            "shortname":"ML",
+            "domainSuffix": "ml"
         }
     },
     {
@@ -1084,7 +1220,8 @@
         "pk":136,
         "fields":{
             "name":"Malta",
-            "shortname":"MT"
+            "shortname":"MT",
+            "domainSuffix": "mt"
         }
     },
     {
@@ -1092,7 +1229,8 @@
         "pk":137,
         "fields":{
             "name":"Marshall Islands",
-            "shortname":"MH"
+            "shortname":"MH",
+            "domainSuffix": "mh"
         }
     },
     {
@@ -1100,7 +1238,8 @@
         "pk":138,
         "fields":{
             "name":"Martinique",
-            "shortname":"MQ"
+            "shortname":"MQ",
+            "domainSuffix": "mq"
         }
     },
     {
@@ -1108,7 +1247,8 @@
         "pk":139,
         "fields":{
             "name":"Mauritania",
-            "shortname":"MR"
+            "shortname":"MR",
+            "domainSuffix": "mr"
         }
     },
     {
@@ -1116,7 +1256,8 @@
         "pk":140,
         "fields":{
             "name":"Mauritius",
-            "shortname":"MU"
+            "shortname":"MU",
+            "domainSuffix": "mu"
         }
     },
     {
@@ -1124,7 +1265,8 @@
         "pk":141,
         "fields":{
             "name":"Mayotte",
-            "shortname":"YT"
+            "shortname":"YT",
+            "domainSuffix": "yt"
         }
     },
     {
@@ -1132,15 +1274,17 @@
         "pk":142,
         "fields":{
             "name":"Mexico",
-            "shortname":"MX"
+            "shortname":"MX",
+            "domainSuffix": "mx"
         }
     },
     {
         "model":"api.country",
         "pk":143,
         "fields":{
-            "name":"Micronesia, Federated States of",
-            "shortname":"FM"
+            "name":"Federated States of Micronesia",
+            "shortname":"FM",
+            "domainSuffix": "fm"
         }
     },
     {
@@ -1148,7 +1292,8 @@
         "pk":144,
         "fields":{
             "name":"Moldova, Republic of",
-            "shortname":"MD"
+            "shortname":"MD",
+            "domainSuffix": "md"
         }
     },
     {
@@ -1156,7 +1301,8 @@
         "pk":145,
         "fields":{
             "name":"Monaco",
-            "shortname":"MC"
+            "shortname":"MC",
+            "domainSuffix": "mc"
         }
     },
     {
@@ -1164,7 +1310,8 @@
         "pk":146,
         "fields":{
             "name":"Mongolia",
-            "shortname":"MN"
+            "shortname":"MN",
+            "domainSuffix": "mh"
         }
     },
     {
@@ -1172,7 +1319,8 @@
         "pk":147,
         "fields":{
             "name":"Montserrat",
-            "shortname":"MS"
+            "shortname":"MS",
+            "domainSuffix": "ms"
         }
     },
     {
@@ -1180,7 +1328,8 @@
         "pk":148,
         "fields":{
             "name":"Morocco",
-            "shortname":"MA"
+            "shortname":"MA",
+            "domainSuffix": "ma"
         }
     },
     {
@@ -1188,7 +1337,8 @@
         "pk":149,
         "fields":{
             "name":"Mozambique",
-            "shortname":"MZ"
+            "shortname":"MZ",
+            "domainSuffix": "mz"
         }
     },
     {
@@ -1196,7 +1346,8 @@
         "pk":150,
         "fields":{
             "name":"Myanmar",
-            "shortname":"MM"
+            "shortname":"MM",
+            "domainSuffix": "mm"
         }
     },
     {
@@ -1204,7 +1355,8 @@
         "pk":151,
         "fields":{
             "name":"Namibia",
-            "shortname":"NA"
+            "shortname":"NA",
+            "domainSuffix": "na"
         }
     },
     {
@@ -1212,7 +1364,8 @@
         "pk":152,
         "fields":{
             "name":"Nauru",
-            "shortname":"NR"
+            "shortname":"NR",
+            "domainSuffix": "nr"
         }
     },
     {
@@ -1220,7 +1373,8 @@
         "pk":153,
         "fields":{
             "name":"Nepal",
-            "shortname":"NP"
+            "shortname":"NP",
+            "domainSuffix": "np"
         }
     },
     {
@@ -1228,7 +1382,8 @@
         "pk":154,
         "fields":{
             "name":"Netherlands",
-            "shortname":"NL"
+            "shortname":"NL",
+            "domainSuffix": "nl"
         }
     },
     {
@@ -1236,7 +1391,8 @@
         "pk":155,
         "fields":{
             "name":"Netherlands Antilles",
-            "shortname":"AN"
+            "shortname":"AN",
+            "domainSuffix": "an"
         }
     },
     {
@@ -1244,7 +1400,8 @@
         "pk":156,
         "fields":{
             "name":"New Caledonia",
-            "shortname":"NC"
+            "shortname":"NC",
+            "domainSuffix": "nc"
         }
     },
     {
@@ -1252,7 +1409,8 @@
         "pk":157,
         "fields":{
             "name":"New Zealand",
-            "shortname":"NZ"
+            "shortname":"NZ",
+            "domainSuffix": "nz"
         }
     },
     {
@@ -1260,7 +1418,8 @@
         "pk":158,
         "fields":{
             "name":"Nicaragua",
-            "shortname":"NI"
+            "shortname":"NI",
+            "domainSuffix": "ni"
         }
     },
     {
@@ -1268,7 +1427,8 @@
         "pk":159,
         "fields":{
             "name":"Niger",
-            "shortname":"NE"
+            "shortname":"NE",
+            "domainSuffix": "ne"
         }
     },
     {
@@ -1276,7 +1436,8 @@
         "pk":160,
         "fields":{
             "name":"Nigeria",
-            "shortname":"NG"
+            "shortname":"NG",
+            "domainSuffix": "ng"
         }
     },
     {
@@ -1284,7 +1445,8 @@
         "pk":161,
         "fields":{
             "name":"Niue",
-            "shortname":"NU"
+            "shortname":"NU",
+            "domainSuffix": "nu"
         }
     },
     {
@@ -1292,7 +1454,8 @@
         "pk":162,
         "fields":{
             "name":"Norfolk Island",
-            "shortname":"NF"
+            "shortname":"NF",
+            "domainSuffix": "nf"
         }
     },
     {
@@ -1300,7 +1463,8 @@
         "pk":163,
         "fields":{
             "name":"Northern Mariana Islands",
-            "shortname":"MP"
+            "shortname":"MP",
+            "domainSuffix": "mp"
         }
     },
     {
@@ -1308,7 +1472,8 @@
         "pk":164,
         "fields":{
             "name":"Norway",
-            "shortname":"NO"
+            "shortname":"NO",
+            "domainSuffix": "no"
         }
     },
     {
@@ -1316,7 +1481,8 @@
         "pk":165,
         "fields":{
             "name":"Oman",
-            "shortname":"OM"
+            "shortname":"OM",
+            "domainSuffix": "om"
         }
     },
     {
@@ -1324,7 +1490,8 @@
         "pk":166,
         "fields":{
             "name":"Pakistan",
-            "shortname":"PK"
+            "shortname":"PK",
+            "domainSuffix": "pk"
         }
     },
     {
@@ -1332,7 +1499,8 @@
         "pk":167,
         "fields":{
             "name":"Palau",
-            "shortname":"PW"
+            "shortname":"PW",
+            "domainSuffix": "pw"
         }
     },
     {
@@ -1340,7 +1508,8 @@
         "pk":168,
         "fields":{
             "name":"Palestinian Territory, Occupied",
-            "shortname":"PS"
+            "shortname":"PS",
+            "domainSuffix": "ps"
         }
     },
     {
@@ -1348,7 +1517,8 @@
         "pk":169,
         "fields":{
             "name":"Panama",
-            "shortname":"PA"
+            "shortname":"PA",
+            "domainSuffix": "pa"
         }
     },
     {
@@ -1356,7 +1526,8 @@
         "pk":170,
         "fields":{
             "name":"Papua New Guinea",
-            "shortname":"PG"
+            "shortname":"PG",
+            "domainSuffix": "pg"
         }
     },
     {
@@ -1364,7 +1535,8 @@
         "pk":171,
         "fields":{
             "name":"Paraguay",
-            "shortname":"PY"
+            "shortname":"PY",
+            "domainSuffix": "py"
         }
     },
     {
@@ -1372,7 +1544,8 @@
         "pk":172,
         "fields":{
             "name":"Peru",
-            "shortname":"PE"
+            "shortname":"PE",
+            "domainSuffix": "pe"
         }
     },
     {
@@ -1380,7 +1553,8 @@
         "pk":173,
         "fields":{
             "name":"Philippines",
-            "shortname":"PH"
+            "shortname":"PH",
+            "domainSuffix": "ph"
         }
     },
     {
@@ -1388,7 +1562,8 @@
         "pk":174,
         "fields":{
             "name":"Pitcairn",
-            "shortname":"PN"
+            "shortname":"PN",
+            "domainSuffix": "pn"
         }
     },
     {
@@ -1396,7 +1571,8 @@
         "pk":175,
         "fields":{
             "name":"Poland",
-            "shortname":"PL"
+            "shortname":"PL",
+            "domainSuffix": "pl"
         }
     },
     {
@@ -1404,7 +1580,8 @@
         "pk":176,
         "fields":{
             "name":"Portugal",
-            "shortname":"PT"
+            "shortname":"PT",
+            "domainSuffix": "pt"
         }
     },
     {
@@ -1412,7 +1589,8 @@
         "pk":177,
         "fields":{
             "name":"Puerto Rico",
-            "shortname":"PR"
+            "shortname":"PR",
+            "domainSuffix": "pr"
         }
     },
     {
@@ -1420,7 +1598,8 @@
         "pk":178,
         "fields":{
             "name":"Qatar",
-            "shortname":"QA"
+            "shortname":"QA",
+            "domainSuffix": "qa"
         }
     },
     {
@@ -1428,7 +1607,8 @@
         "pk":179,
         "fields":{
             "name":"Reunion",
-            "shortname":"RE"
+            "shortname":"RE",
+            "domainSuffix": "re"
         }
     },
     {
@@ -1436,7 +1616,8 @@
         "pk":180,
         "fields":{
             "name":"Romania",
-            "shortname":"RO"
+            "shortname":"RO",
+            "domainSuffix": "ro"
         }
     },
     {
@@ -1444,7 +1625,8 @@
         "pk":181,
         "fields":{
             "name":"Russian Federation",
-            "shortname":"RU"
+            "shortname":"RU",
+            "domainSuffix": "ru"
         }
     },
     {
@@ -1452,7 +1634,8 @@
         "pk":182,
         "fields":{
             "name":"RWANDA",
-            "shortname":"RW"
+            "shortname":"RW",
+            "domainSuffix": "rw"
         }
     },
     {
@@ -1460,7 +1643,8 @@
         "pk":183,
         "fields":{
             "name":"Saint Helena",
-            "shortname":"SH"
+            "shortname":"SH",
+            "domainSuffix": "sh"
         }
     },
     {
@@ -1468,7 +1652,8 @@
         "pk":184,
         "fields":{
             "name":"Saint Kitts and Nevis",
-            "shortname":"KN"
+            "shortname":"KN",
+            "domainSuffix": "kn"
         }
     },
     {
@@ -1476,7 +1661,8 @@
         "pk":185,
         "fields":{
             "name":"Saint Lucia",
-            "shortname":"LC"
+            "shortname":"LC",
+            "domainSuffix": "lc"
         }
     },
     {
@@ -1484,7 +1670,8 @@
         "pk":186,
         "fields":{
             "name":"Saint Pierre and Miquelon",
-            "shortname":"PM"
+            "shortname":"PM",
+            "domainSuffix": "pm"
         }
     },
     {
@@ -1492,7 +1679,8 @@
         "pk":187,
         "fields":{
             "name":"Saint Vincent and the Grenadines",
-            "shortname":"VC"
+            "shortname":"VC",
+            "domainSuffix": "vc"
         }
     },
     {
@@ -1500,7 +1688,8 @@
         "pk":188,
         "fields":{
             "name":"Samoa",
-            "shortname":"WS"
+            "shortname":"WS",
+            "domainSuffix": "ws"
         }
     },
     {
@@ -1508,7 +1697,8 @@
         "pk":189,
         "fields":{
             "name":"San Marino",
-            "shortname":"SM"
+            "shortname":"SM",
+            "domainSuffix": "sm"
         }
     },
     {
@@ -1516,7 +1706,8 @@
         "pk":190,
         "fields":{
             "name":"Sao Tome and Principe",
-            "shortname":"ST"
+            "shortname":"ST",
+            "domainSuffix": "st"
         }
     },
     {
@@ -1524,7 +1715,8 @@
         "pk":191,
         "fields":{
             "name":"Saudi Arabia",
-            "shortname":"SA"
+            "shortname":"SA",
+            "domainSuffix": "sa"
         }
     },
     {
@@ -1532,7 +1724,8 @@
         "pk":192,
         "fields":{
             "name":"Senegal",
-            "shortname":"SN"
+            "shortname":"SN",
+            "domainSuffix": "sn"
         }
     },
     {
@@ -1540,7 +1733,8 @@
         "pk":193,
         "fields":{
             "name":"Serbia and Montenegro",
-            "shortname":"CS"
+            "shortname":"CS",
+            "domainSuffix": "cs"
         }
     },
     {
@@ -1548,7 +1742,8 @@
         "pk":194,
         "fields":{
             "name":"Seychelles",
-            "shortname":"SC"
+            "shortname":"SC",
+            "domainSuffix": "sc"
         }
     },
     {
@@ -1556,7 +1751,8 @@
         "pk":195,
         "fields":{
             "name":"Sierra Leone",
-            "shortname":"SL"
+            "shortname":"SL",
+            "domainSuffix": "sl"
         }
     },
     {
@@ -1564,7 +1760,8 @@
         "pk":196,
         "fields":{
             "name":"Singapore",
-            "shortname":"SG"
+            "shortname":"SG",
+            "domainSuffix": "sg"
         }
     },
     {
@@ -1572,7 +1769,8 @@
         "pk":197,
         "fields":{
             "name":"Slovakia",
-            "shortname":"SK"
+            "shortname":"SK",
+            "domainSuffix": "sk"
         }
     },
     {
@@ -1580,7 +1778,8 @@
         "pk":198,
         "fields":{
             "name":"Slovenia",
-            "shortname":"SI"
+            "shortname":"SI",
+            "domainSuffix": "si"
         }
     },
     {
@@ -1588,7 +1787,8 @@
         "pk":199,
         "fields":{
             "name":"Solomon Islands",
-            "shortname":"SB"
+            "shortname":"SB",
+            "domainSuffix": "sb"
         }
     },
     {
@@ -1596,7 +1796,8 @@
         "pk":200,
         "fields":{
             "name":"Somalia",
-            "shortname":"SO"
+            "shortname":"SO",
+            "domainSuffix": "so"
         }
     },
     {
@@ -1604,7 +1805,8 @@
         "pk":201,
         "fields":{
             "name":"South Africa",
-            "shortname":"ZA"
+            "shortname":"ZA",
+            "domainSuffix": "za"
         }
     },
     {
@@ -1612,7 +1814,8 @@
         "pk":202,
         "fields":{
             "name":"South Georgia and the South Sandwich Islands",
-            "shortname":"GS"
+            "shortname":"GS",
+            "domainSuffix": "gs"
         }
     },
     {
@@ -1620,7 +1823,8 @@
         "pk":203,
         "fields":{
             "name":"Spain",
-            "shortname":"ES"
+            "shortname":"ES",
+            "domainSuffix": "es"
         }
     },
     {
@@ -1628,7 +1832,8 @@
         "pk":204,
         "fields":{
             "name":"Sri Lanka",
-            "shortname":"LK"
+            "shortname":"LK",
+            "domainSuffix": "lk"
         }
     },
     {
@@ -1636,7 +1841,8 @@
         "pk":205,
         "fields":{
             "name":"Sudan",
-            "shortname":"SD"
+            "shortname":"SD",
+            "domainSuffix": "sd"
         }
     },
     {
@@ -1644,7 +1850,8 @@
         "pk":206,
         "fields":{
             "name":"Suriname",
-            "shortname":"SR"
+            "shortname":"SR",
+            "domainSuffix": "sr"
         }
     },
     {
@@ -1652,7 +1859,8 @@
         "pk":207,
         "fields":{
             "name":"Svalbard and Jan Mayen",
-            "shortname":"SJ"
+            "shortname":"SJ",
+            "domainSuffix": "sj"
         }
     },
     {
@@ -1660,7 +1868,8 @@
         "pk":208,
         "fields":{
             "name":"Swaziland",
-            "shortname":"SZ"
+            "shortname":"SZ",
+            "domainSuffix": "sz"
         }
     },
     {
@@ -1668,7 +1877,8 @@
         "pk":209,
         "fields":{
             "name":"Sweden",
-            "shortname":"SE"
+            "shortname":"SE",
+            "domainSuffix": "se"
         }
     },
     {
@@ -1676,7 +1886,8 @@
         "pk":210,
         "fields":{
             "name":"Switzerland",
-            "shortname":"CH"
+            "shortname":"CH",
+            "domainSuffix": "ch"
         }
     },
     {
@@ -1684,7 +1895,8 @@
         "pk":211,
         "fields":{
             "name":"Syrian Arab Republic",
-            "shortname":"SY"
+            "shortname":"SY",
+            "domainSuffix": "sy"
         }
     },
     {
@@ -1692,7 +1904,8 @@
         "pk":212,
         "fields":{
             "name":"Taiwan, Province of China",
-            "shortname":"TW"
+            "shortname":"TW",
+            "domainSuffix": "tw"
         }
     },
     {
@@ -1700,7 +1913,8 @@
         "pk":213,
         "fields":{
             "name":"Tajikistan",
-            "shortname":"TJ"
+            "shortname":"TJ",
+            "domainSuffix": "tj"
         }
     },
     {
@@ -1708,7 +1922,8 @@
         "pk":214,
         "fields":{
             "name":"Tanzania, United Republic of",
-            "shortname":"TZ"
+            "shortname":"TZ",
+            "domainSuffix": "tz"
         }
     },
     {
@@ -1716,7 +1931,8 @@
         "pk":215,
         "fields":{
             "name":"Thailand",
-            "shortname":"TH"
+            "shortname":"TH",
+            "domainSuffix": "th"
         }
     },
     {
@@ -1724,7 +1940,8 @@
         "pk":216,
         "fields":{
             "name":"Timor-Leste",
-            "shortname":"TL"
+            "shortname":"TL",
+            "domainSuffix": "tl"
         }
     },
     {
@@ -1732,7 +1949,8 @@
         "pk":217,
         "fields":{
             "name":"Togo",
-            "shortname":"TG"
+            "shortname":"TG",
+            "domainSuffix": "tg"
         }
     },
     {
@@ -1740,7 +1958,8 @@
         "pk":218,
         "fields":{
             "name":"Tokelau",
-            "shortname":"TK"
+            "shortname":"TK",
+            "domainSuffix": "tk"
         }
     },
     {
@@ -1748,7 +1967,8 @@
         "pk":219,
         "fields":{
             "name":"Tonga",
-            "shortname":"TO"
+            "shortname":"TO",
+            "domainSuffix": "to"
         }
     },
     {
@@ -1756,7 +1976,8 @@
         "pk":220,
         "fields":{
             "name":"Trinidad and Tobago",
-            "shortname":"TT"
+            "shortname":"TT",
+            "domainSuffix": "tt"
         }
     },
     {
@@ -1764,7 +1985,8 @@
         "pk":221,
         "fields":{
             "name":"Tunisia",
-            "shortname":"TN"
+            "shortname":"TN",
+            "domainSuffix": "tn"
         }
     },
     {
@@ -1772,7 +1994,8 @@
         "pk":222,
         "fields":{
             "name":"Turkey",
-            "shortname":"TR"
+            "shortname":"TR",
+            "domainSuffix": "tr"
         }
     },
     {
@@ -1780,7 +2003,8 @@
         "pk":223,
         "fields":{
             "name":"Turkmenistan",
-            "shortname":"TM"
+            "shortname":"TM",
+            "domainSuffix": "tm"
         }
     },
     {
@@ -1788,7 +2012,8 @@
         "pk":224,
         "fields":{
             "name":"Turks and Caicos Islands",
-            "shortname":"TC"
+            "shortname":"TC",
+            "domainSuffix": "tc"
         }
     },
     {
@@ -1796,7 +2021,8 @@
         "pk":225,
         "fields":{
             "name":"Tuvalu",
-            "shortname":"TV"
+            "shortname":"TV",
+            "domainSuffix": "tv"
         }
     },
     {
@@ -1804,7 +2030,8 @@
         "pk":226,
         "fields":{
             "name":"Uganda",
-            "shortname":"UG"
+            "shortname":"UG",
+            "domainSuffix": "ug"
         }
     },
     {
@@ -1812,7 +2039,8 @@
         "pk":227,
         "fields":{
             "name":"Ukraine",
-            "shortname":"UA"
+            "shortname":"UA",
+            "domainSuffix": "ua"
         }
     },
     {
@@ -1820,7 +2048,8 @@
         "pk":228,
         "fields":{
             "name":"United Arab Emirates",
-            "shortname":"AE"
+            "shortname":"AE",
+            "domainSuffix": "ae"
         }
     },
     {
@@ -1828,7 +2057,8 @@
         "pk":229,
         "fields":{
             "name":"United Kingdom",
-            "shortname":"GB"
+            "shortname":"GB",
+            "domainSuffix": "gb"
         }
     },
     {
@@ -1836,7 +2066,9 @@
         "pk":230,
         "fields":{
             "name":"United States",
-            "shortname":"US"
+            "shortname":"US",
+            "domainSuffix": "us",
+            "isAvailable": true
         }
     },
     {
@@ -1844,7 +2076,8 @@
         "pk":231,
         "fields":{
             "name":"United States Minor Outlying Islands",
-            "shortname":"UM"
+            "shortname":"UM",
+            "domainSuffix": "um"
         }
     },
     {
@@ -1852,7 +2085,8 @@
         "pk":232,
         "fields":{
             "name":"Uruguay",
-            "shortname":"UY"
+            "shortname":"UY",
+            "domainSuffix": "uy"
         }
     },
     {
@@ -1860,7 +2094,8 @@
         "pk":233,
         "fields":{
             "name":"Uzbekistan",
-            "shortname":"UZ"
+            "shortname":"UZ",
+            "domainSuffix": "uz"
         }
     },
     {
@@ -1868,7 +2103,8 @@
         "pk":234,
         "fields":{
             "name":"Vanuatu",
-            "shortname":"VU"
+            "shortname":"VU",
+            "domainSuffix": "vu"
         }
     },
     {
@@ -1876,7 +2112,8 @@
         "pk":235,
         "fields":{
             "name":"Venezuela",
-            "shortname":"VE"
+            "shortname":"VE",
+            "domainSuffix": "ve"
         }
     },
     {
@@ -1884,7 +2121,8 @@
         "pk":236,
         "fields":{
             "name":"Viet Nam",
-            "shortname":"VN"
+            "shortname":"VN",
+            "domainSuffix": "vn"
         }
     },
     {
@@ -1892,7 +2130,8 @@
         "pk":237,
         "fields":{
             "name":"Virgin Islands, British",
-            "shortname":"VG"
+            "shortname":"VG",
+            "domainSuffix": "vg"
         }
     },
     {
@@ -1900,7 +2139,8 @@
         "pk":238,
         "fields":{
             "name":"Virgin Islands, U.S.",
-            "shortname":"VI"
+            "shortname":"VI",
+            "domainSuffix": "vi"
         }
     },
     {
@@ -1908,7 +2148,8 @@
         "pk":239,
         "fields":{
             "name":"Wallis and Futuna",
-            "shortname":"WF"
+            "shortname":"WF",
+            "domainSuffix": "wf"
         }
     },
     {
@@ -1916,7 +2157,8 @@
         "pk":240,
         "fields":{
             "name":"Western Sahara",
-            "shortname":"EH"
+            "shortname":"EH",
+            "domainSuffix": "eh"
         }
     },
     {
@@ -1924,7 +2166,8 @@
         "pk":241,
         "fields":{
             "name":"Yemen",
-            "shortname":"YE"
+            "shortname":"YE",
+            "domainSuffix": "ye"
         }
     },
     {
@@ -1932,7 +2175,8 @@
         "pk":242,
         "fields":{
             "name":"Zambia",
-            "shortname":"ZM"
+            "shortname":"ZM",
+            "domainSuffix": "zm"
         }
     },
     {
@@ -1940,7 +2184,8 @@
         "pk":243,
         "fields":{
             "name":"Zimbabwe",
-            "shortname":"ZW"
+            "shortname":"ZW",
+            "domainSuffix": "zw"
         }
     }
 ]

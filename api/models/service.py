@@ -3,6 +3,8 @@ from api.models.country import Country
 
 
 class Service(models.Model):
+    objects = models.Manager()
+
     class Meta:
         db_table = 'service'
 
