@@ -37,7 +37,7 @@ Run server : ``python manage.py runserver``
 - [ ] Create Endpoints:
   - [ ] Service
   - [ ] Report
-- [ ] Normalize error reponse with json template
+- [ ] Normalize error response with json template
 - [ ] Save nb reports, what troubles and where
 - [ ] Use Baerer token (in http header) to auth user
 - [ ] **v2** Get token info (scopes, request limit) with a endpoint
@@ -47,6 +47,9 @@ Run server : ``python manage.py runserver``
 ## Version
 [![](https://badgen.net/github/tag/BenjaminFourmaux/ServiceDown-api?cache=600)](https://github.com/BenjaminFourmaux/ServiceDown-api/tags) [![](https://badgen.net/github/release/BenjaminFourmaux/ServiceDown-api?cache=600)](https://github.com/BenjaminFourmaux/ServiceDown-api/releases)
 - [v1] in coming ...
+- [v0.5] "Log4me" Add custom logger to save log in .md file
+- [v0.4] "Bearer" Add authentication (idk ?)
+- [v0.1] "Initialize" The api basics
 
 ## Contributors
 [![](https://badgen.net/github/contributors/BenjaminFourmaux/ServiceDown-api)](https://github.com/BenjaminFourmaux/ServiceDown-api/graphs/contributors)
