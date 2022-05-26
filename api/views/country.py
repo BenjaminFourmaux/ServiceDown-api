@@ -11,7 +11,7 @@ class CountryViewSet(viewsets.ModelViewSet):
 
     @action(methods=['GET'], detail=False, url_path='list', url_name='country list')
     def list_country(self, request, pk=None):
-        countries = self.queryset.all()
+        countries = self.queryset.filter(isAvailable=1)
 
         serializer = self.serializer_class(countries, many=True)
 

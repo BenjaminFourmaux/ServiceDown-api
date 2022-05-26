@@ -13,7 +13,8 @@
         "pk":2,
         "fields":{
             "name":"\u00c5land Islands",
-            "shortname":"AX"
+            "shortname":"AX",
+            "domainSuffix": "ax"
         }
     },
     {
@@ -661,7 +662,8 @@
         "fields":{
             "name":"France",
             "shortname":"FR",
-            "domainSuffix": "fr"
+            "domainSuffix": "fr",
+            "isAvailable": true
         }
     },
     {
@@ -2065,7 +2067,8 @@
         "fields":{
             "name":"United States",
             "shortname":"US",
-            "domainSuffix": "us"
+            "domainSuffix": "us",
+            "isAvailable": true
         }
     },
     {

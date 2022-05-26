@@ -11,6 +11,7 @@ class Country(models.Model):
     name = models.CharField(max_length=50, null=False)
     shortname = models.CharField(max_length=2, null=True)  # ISO 3166 Alpha-2 code
     domainSuffix = models.CharField(max_length=10, null=True)
+    isAvailable = models.BooleanField(default=False, null=False)
 
     @property
     def service_count(self):
