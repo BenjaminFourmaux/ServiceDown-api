@@ -29,7 +29,7 @@ To install ServiceDown-api, you need to install some things :
 ### Use
 Applied migrations : ``python manage.py migrate``
 \
-Make fixtures (seed database) : ``python manage.py users.json countries.json services.json``
+Make fixtures (seed database) with custom command : ``python manage.py loadfixtures``
 \
 Run server : ``python manage.py runserver``
 
