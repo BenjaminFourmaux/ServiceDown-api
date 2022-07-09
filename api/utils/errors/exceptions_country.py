@@ -5,7 +5,17 @@ class CountryException(APIError):
     pass
 
 
+class CountryNotFound(CountryException):
+    status_code = 404
+    error_code = 101
+    error_name = 'country_not_found'
+    error_message = 'Country id: {0} not found'
+
+    string_args = ['pk']
+
+
 class CountryNotAvailable(CountryException):
     status_code = 403
-    default_code = 'country_not_available'
-    default_detail = 'This country is not available'
+    error_code = 102
+    error_name = 'country_not_available'
+    error_message = 'This country is not available'

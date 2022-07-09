@@ -3,7 +3,7 @@ from rest_framework.decorators import action
 from rest_framework.response import Response
 from api.models import Country
 from api.serializers import CountrySerializer
-from api.utils import CountryNotAvailable
+from api.utils import CountryNotAvailable, CountryNotFound
 
 
 class CountryViewSet(viewsets.ModelViewSet):
@@ -11,7 +11,10 @@ class CountryViewSet(viewsets.ModelViewSet):
     serializer_class = CountrySerializer
 
     def retrieve(self, request, *args, **kwargs):
-        country = self.get_object()
+        try:
+            country = self.get_object()
+        except:
+            raise CountryNotFound
 
         if country.isAvailable:
             output = self.serializer_class(country)
