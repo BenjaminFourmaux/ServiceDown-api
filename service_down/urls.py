@@ -17,7 +17,7 @@ from django.views.generic import RedirectView
 from drf_yasg.views import get_schema_view
 from drf_yasg import openapi
 from rest_framework.routers import DefaultRouter
-from api.views import TestViewSet, CountryViewSet
+from api.views import TestViewSet, CountryViewSet, ServiceViewSet
 from django.urls import path, re_path, include
 
 schema_view = get_schema_view(
@@ -36,25 +36,9 @@ router = DefaultRouter(trailing_slash=False)
 # Route register
 router.register('test', TestViewSet, basename='pingViewSet')
 router.register('country', CountryViewSet, basename='countryViewSet')
+router.register('service', ServiceViewSet, basename='serviceViewSet')
 
 urlpatterns = [
     re_path('', include(router.urls)),
     re_path(r'^favicon.ico$', favicon_view)
 ]
-
-"""
-urlpatterns = [
-                  re_path(r'^swagger(?P<format>\.json|\.yaml)$', schema_view.without_ui(cache_timeout=0),
-                          name='schema-json'),
-                  re_path(r'^swagger/$', schema_view.with_ui('swagger', cache_timeout=0), name='schema-swagger-ui'),
-                  re_path(r'^redoc/$', schema_view.with_ui('redoc', cache_timeout=0), name='schema-redoc'),
-                  path('admin/', admin.site.urls),
-                  re_path('auth/', include('ubidreams_django_common.ubidreams_auth.urls')),
-                  re_path('', include(router.urls)),
-                  # url('test', decorated_login_view, name='schema-test'),
-                  re_path(r'^media/(?P<path>.*)$', serve, {'document_root': settings.MEDIA_ROOT}),
-                  re_path(r'^static/(?P<path>.*)$', serve, {'document_root': settings.STATIC_ROOT}),
-                  re_path(r'^favicon.ico$', favicon_view)
-              ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT) \
-              + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
-"""
