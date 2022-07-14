@@ -5,7 +5,7 @@ class ServiceException(APIError):
     pass
 
 
-class CountryNotFound(ServiceException):
+class ServiceNotFound(ServiceException):
     status_code = 404
     error_code = 201
     error_name = 'service_not_found'

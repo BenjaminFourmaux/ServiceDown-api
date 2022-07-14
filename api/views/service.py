@@ -1,18 +1,28 @@
 from rest_framework import viewsets, status
-from rest_framework.decorators import action
 from rest_framework.response import Response
 from api.models import Service
-from api.serializers import ServiceSerializer
+from api.serializers import ServiceSerializer, ServiceSerializerFields
+from api.utils import ServiceNotFound
 
 
 class ServiceViewSet(viewsets.ModelViewSet):
     queryset = Service.objects
     serializer_class = ServiceSerializer
+    serializer_fields_class = ServiceSerializerFields
 
-    @action(methods=['GET'], detail=False, url_path='list', url_name='country list')
-    def list_country(self, request, pk=None):
-        countries = self.queryset.filter(isAvailable=1)
+    def retrieve(self, request, *args, **kwargs):
+        try:
+            service = self.get_object()
+        except:
+            raise ServiceNotFound
 
-        serializer = self.serializer_class(countries, many=True)
+        if 'fields' in request.GET:
+            fields = request.GET.get('fields').split(',')
 
-        return Response(serializer.data, status=status.HTTP_200_OK)
+            output = self.serializer_fields_class(service, many=False, fields=tuple(fields))
+        else:
+            output = self.get_serializer(service, many=False)
+
+        return Response(output.data, status=status.HTTP_200_OK)
+
+
