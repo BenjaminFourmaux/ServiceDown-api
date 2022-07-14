@@ -14,7 +14,7 @@ class Country(models.Model):
     isAvailable = models.BooleanField(default=False, null=False)
 
     @property
-    def service_count(self):
+    def serviceCount(self):
         from api.models import Service
         return len(Service.objects.filter(Q(countries=self)))
 

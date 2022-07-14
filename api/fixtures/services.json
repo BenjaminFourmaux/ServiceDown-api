@@ -1822,7 +1822,10 @@
         "fields": {
             "name": "Orange",
             "cname": "ORANGE",
+            "description": "French Internet provider",
             "path": "/statut/orange-france",
+            "website": "www.orange.fr",
+            "twitterUsername": "Get Service",
             "countries": [
                 74
             ]
