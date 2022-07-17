@@ -1,4 +1,3 @@
-from django.shortcuts import get_object_or_404
 from rest_framework import viewsets, status
 from rest_framework.decorators import action
 from rest_framework.response import Response
@@ -9,10 +8,14 @@ from api.serializers import CountrySerializer
 class CountryViewSet(viewsets.ModelViewSet):
     queryset = Country.objects
     serializer_class = CountrySerializer
+    http_method_names = ['get']
+
+    def list(self, *args, **kwargs):
+        return Response(status=status.HTTP_404_NOT_FOUND)
 
     @action(methods=['GET'], detail=False, url_path='list', url_name='country list')
     def list_country(self, request, pk=None):
-        countries = self.queryset.filter(isAvailable=1)
+        countries = self.queryset.filter(isAvailable=1).all()
 
         serializer = self.serializer_class(countries, many=True)
 
