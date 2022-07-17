@@ -37,6 +37,7 @@ Run server : ``python manage.py runserver``
 - [ ] Create Endpoints:
   - [ ] Service
   - [ ] Report
+  - [x] Country
 - [ ] Normalize error response with json template
 - [ ] Save nb reports, what troubles and where
 - [ ] Use Baerer token (in http header) to auth user
