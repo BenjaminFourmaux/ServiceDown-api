@@ -44,6 +44,7 @@ Run server : ``python manage.py runserver``
 - [ ] **v2** Get token info (scopes, request limit) with a endpoint
 - [ ] **v2** Return .svg graph about last 12 hour nb reports of an service
 - [ ] **v2** *Admin* Store logs and get metrics about user usage (how many request by user, what endpoint...)
+- [ ] **V3** *Webhook* Implement webhook subscription
 
 ## Version
 [![](https://badgen.net/github/tag/BenjaminFourmaux/ServiceDown-api?cache=600)](https://github.com/BenjaminFourmaux/ServiceDown-api/tags) [![](https://badgen.net/github/release/BenjaminFourmaux/ServiceDown-api?cache=600)](https://github.com/BenjaminFourmaux/ServiceDown-api/releases)
