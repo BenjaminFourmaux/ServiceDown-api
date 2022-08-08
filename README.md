@@ -24,7 +24,7 @@ To install ServiceDown-api, you need to install some things :
 - Python 3.9
 - pip
 - Django 4.0.4
-- Install ``requirments.txt`` with ``pip install -r requirments.txt``
+- Install ``requirements.txt`` with ``pip install -r requirements.txt``
 - Create file ``.env`` in ``ServiceDown_api/service_down`` with properties : ``DEBUG, SECRET_KEY, DB_HOST, DB_PORT, DB_NAME, DB_USER, DB_PASSWORD``
 ### Use
 Applied migrations : ``python manage.py migrate``
