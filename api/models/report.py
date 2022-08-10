@@ -3,6 +3,8 @@ from api.models import Country, Service
 
 
 class Report(models.Model):
+    objects = models.Manager()
+
     class Meta:
         db_table = 'report'
 
