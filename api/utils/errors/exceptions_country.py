@@ -19,3 +19,12 @@ class CountryNotAvailable(CountryException):
     error_code = 102
     error_name = 'country_not_available'
     error_message = 'This country is not available'
+
+
+class CountryShortnameNotExist(CountryException):
+    status_code = 404
+    error_code = 103
+    error_name = 'country_shortname_not_exist'
+    error_message = 'Country shortname: \'{0}\' not exist'
+
+    string_args = ['shortname']

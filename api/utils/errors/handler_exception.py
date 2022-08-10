@@ -2,7 +2,7 @@ import random
 
 from django.http import Http404
 from rest_framework.views import exception_handler
-from api.utils.errors import APIError
+from api.utils.errors.api_exceptions import APIError
 
 
 def handler_exception(exc, context):
@@ -39,7 +39,6 @@ def get_error_message(message: str, tab_properties, args: dict) -> str:
 
     for parameter in tab_properties:
         tab_properties_value.append(args.get(parameter))
-
     return message.format(*tab_properties_value)
 
 
