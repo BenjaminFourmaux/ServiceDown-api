@@ -20,3 +20,10 @@ class SerializerHasNoField(APIError):
         super()
         self.error_message = self.error_message.format(*bind_value)
         self.detail = self.error_message
+
+
+class MethodNotAllowed(APIError):
+    status_code = 405
+    error_code = 2
+    error_name = 'method_not_allowed'
+    error_message = 'Method: {0} not allowed on node: {1}'
