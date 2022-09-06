@@ -11,7 +11,8 @@ def load_data_from_sql(filename):
         c.execute(sql_statement)
 
 
-create_views_h1 = lambda _, __: load_data_from_sql('view_report_1h.sql')
+create_views_1h = lambda _, __: load_data_from_sql('view_report_1h.sql')
+create_views_24h = lambda _, __: load_data_from_sql('view_report_24h.sql')
 
 
 class Migration(migrations.Migration):
@@ -21,5 +22,7 @@ class Migration(migrations.Migration):
 
     operations = [
         migrations.RunSQL("DROP VIEW IF EXISTS stats_report_1h;"),
-        migrations.RunPython(create_views_h1),
+        migrations.RunPython(create_views_1h),
+        migrations.RunSQL("DROP VIEW IF EXISTS stats_report_24h;"),
+        migrations.RunPython(create_views_24h),
     ]

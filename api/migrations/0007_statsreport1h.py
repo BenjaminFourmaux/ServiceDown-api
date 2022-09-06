@@ -26,6 +26,7 @@ class Migration(migrations.Migration):
                 ('interval50mins', models.IntegerField(db_column='slice10')),
                 ('interval55mins', models.IntegerField(db_column='slice11')),
                 ('interval60mins', models.IntegerField(db_column='slice12')),
+                ('totalReport', models.IntegerField(db_column='totalReport')),
             ],
             options={
                 'db_table': ' stats_report_1h',
