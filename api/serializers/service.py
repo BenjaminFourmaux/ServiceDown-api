@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from api.models.service import Service
+from api.models import Service
 from api.utils import SerializerHasNoField, SerializerUtils
 
 
