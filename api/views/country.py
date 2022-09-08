@@ -3,7 +3,7 @@ from rest_framework.decorators import action
 from rest_framework.response import Response
 from api.models import Country
 from api.serializers import CountrySerializer
-from api.utils import CountryNotAvailable, CountryNotFound, CountryShortnameNotExist
+from api.utils import CountryNotAvailable, CountryShortnameNotExist
 from api.utils.view import ViewUtils
 
 

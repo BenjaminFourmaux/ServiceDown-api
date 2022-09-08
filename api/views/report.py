@@ -2,9 +2,9 @@ from django.db.models import Q
 from rest_framework.response import Response
 from rest_framework import viewsets, status
 from rest_framework.decorators import action
-from api.models import Report, Service, Country
+from api.models import Report
 from api.serializers.report import ReportSerializer
-from api.utils import MethodNotAllowed, ServiceNotFound, CountryNotFound
+from api.utils import MethodNotAllowed
 from api.utils.view import ViewUtils
 
 

@@ -2,10 +2,10 @@ from django.db.models import Q
 from rest_framework import viewsets, status
 from rest_framework.decorators import action
 from rest_framework.response import Response
-from api.models import Service, StatsReport1H, Country, StatsReport24H
+from api.models import Service, StatsReport1H, StatsReport24H
 from api.serializers import ServiceSerializer, ServiceSerializerFields, StatsReport1HSerializer, \
     StatsReport24HSerializer
-from api.utils import ServiceNotFound, MethodNotAllowed, CountryNotAvailable
+from api.utils import MethodNotAllowed
 from api.utils.view import ViewUtils
 
 
