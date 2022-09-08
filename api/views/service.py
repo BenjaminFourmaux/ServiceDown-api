@@ -22,7 +22,6 @@ class ServiceViewSet(viewsets.ModelViewSet):
 
     def create(self, request, *args, **kwargs):
         raise MethodNotAllowed
-
     # </editor-fold>
 
     def retrieve(self, request, *args, **kwargs):
