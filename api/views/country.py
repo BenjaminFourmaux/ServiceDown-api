@@ -4,6 +4,7 @@ from rest_framework.response import Response
 from api.models import Country
 from api.serializers import CountrySerializer
 from api.utils import CountryNotAvailable, CountryNotFound, CountryShortnameNotExist
+from api.utils.view import ViewUtils
 
 
 class CountryViewSet(viewsets.ModelViewSet):
@@ -19,17 +20,11 @@ class CountryViewSet(viewsets.ModelViewSet):
         return Response(serializer.data, status=status.HTTP_200_OK)
 
     def retrieve(self, request, *args, **kwargs):
-        try:
-            country = self.get_object()
-        except:
-            raise CountryNotFound
+        # Checkout
+        country = ViewUtils.check_country(self.get_object().id)
 
-        if country.isAvailable:
-            output = self.serializer_class(country)
-
-            return Response(output.data, status=status.HTTP_200_OK)
-        else:
-            raise CountryNotAvailable
+        output = self.serializer_class(country)
+        return Response(output.data, status=status.HTTP_200_OK)
 
     @action(methods=['GET'], detail=False, url_path='shortname/(?P<shortname>\w+)', url_name='get_country_by_shortname')
     def get_by_shortname(self, request, shortname):
