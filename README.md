@@ -1,5 +1,5 @@
 # ServiceDown-api
-Open Services Status Data
+Open Services StatusEnum Data
 \
 [![](https://badgen.net/badge/Service/Down/red)]()
 [![](https://img.shields.io/badge/python-3.9-blue?logo=python&logoColor=yellow)]()

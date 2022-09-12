@@ -1,0 +1,23 @@
+[
+  {
+    "model": "api.status",
+    "pk": 1,
+    "fields": {
+      "label": "ok"
+    }
+  },
+  {
+    "model": "api.status",
+    "pk": 2,
+    "fields": {
+      "label": "warning"
+    }
+  },
+  {
+    "model": "api.status",
+    "pk": 3,
+    "fields": {
+      "label": "error"
+    }
+  }
+]

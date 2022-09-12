@@ -6,7 +6,7 @@ class Command(BaseCommand):
     help = "DEV COMMAND: Fill database with a set of data for testing purposes"
 
     def handle(self, *args, **options):
-        list_fixtures = ['countries', 'services']
+        list_fixtures = ['countries', 'services', 'status']
 
         self.stdout.write('Load Fixtures ...')
         for i in range(len(list_fixtures)):
