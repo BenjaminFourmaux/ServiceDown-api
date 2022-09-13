@@ -6,33 +6,21 @@ services:
     restart: always
     environment:
       MYSQL_DATABASE: 'service-down_api'
-      MYSQL_USER: 'sd-api'
-      MYSQL_PASSWORD: 'sd-api'
-      MYSQL_ROOT_PASSWORD: 'sd-api'
+      MYSQL_USER: 'service_down_api'
+      MYSQL_PASSWORD: 'IsTheServiceIsDown8'
+      MYSQL_ROOT_PASSWORD: 'TheRoot_P@ssw0rd'
     ports:
       - '3306:3306'
     expose:
       - '3306'
-    volumes:
-      - sd-api:/var/lib/mysql
   api:
     build: .
+    container_name: django_container
+    command: bash -c "python manage.py migrate &&
+                      python manage.py runserver 0.0.0.0:8000"
     volumes:
       - .:/app
-
     ports:
       - '8000:8000'
-    image: app:python-django
-    container_name: django_container
-    command: python manage.py runserver 0.0.0.0:8000
     depends_on:
       - db
-  nginx:
-    image: nginx:latest
-    restart: always
-    volumes:
-      - ./.docker/nginx.conf
-      - ./.certs:/etc/nginx/certs
-volumes:
-  sd-api:
-    driver: local
