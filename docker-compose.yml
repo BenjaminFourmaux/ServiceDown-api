@@ -28,3 +28,6 @@ services:
     volumes:
       - ./.docker/nginx.conf
       - ./.certs:/etc/nginx/certs
+volumes:
+  sd-api:
+    driver: local
