@@ -1,0 +1,30 @@
+version: '3.9'
+
+services:
+  db:
+    image: mysql:8.0.29
+    restart: always
+    environment:
+      MYSQL_DATABASE: 'service-down_api'
+      MYSQL_USER: 'sd-api'
+      MYSQL_PASSWORD: 'sd-api'
+      MYSQL_ROOT_PASSWORD: 'sd-api'
+    ports:
+      - '3306:3306'
+    expose:
+      - '3306'
+    volumes:
+      - sd-api:/var/lib/mysql
+  api:
+    build: .
+    command: python manage.py runserver 0.0.0.0:8000
+    ports:
+      - '8000:8000'
+    depends_on:
+      - db
+  nginx:
+    image: nginx:latest
+    restart: always
+    volumes:
+      - ./.docker/nginx.conf
+      - ./.certs:/etc/nginx/certs
