@@ -1,4 +1,4 @@
-version: '3.3'
+version: '3.8'
 
 services:
   db:
@@ -16,10 +16,15 @@ services:
     volumes:
       - sd-api:/var/lib/mysql
   api:
-    build: ./api/
-    command: python manage.py runserver 0.0.0.0:8000
+    build: .
+    volumes:
+      - .:/app
+
     ports:
       - '8000:8000'
+    image: app:python-django
+    container_name: django_container
+    command: python manage.py runserver 0.0.0.0:8000
     depends_on:
       - db
   nginx:
