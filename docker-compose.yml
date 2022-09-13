@@ -16,7 +16,9 @@ services:
     volumes:
       - sd-api:/var/lib/mysql
   api:
-    build: .
+    build:
+      context: .
+      dockerfile: .docker/
     command: python manage.py runserver 0.0.0.0:8000
     ports:
       - '8000:8000'
