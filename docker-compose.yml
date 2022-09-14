@@ -3,7 +3,7 @@ version: '3.3'
 services:
   db:
     image: mysql:8.0.29
-    restart: always
+    container_name: db_mysql_container
     environment:
       MYSQL_DATABASE: 'service-down_api'
       MYSQL_USER: 'service_down_api'
