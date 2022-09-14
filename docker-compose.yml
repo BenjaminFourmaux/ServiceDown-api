@@ -5,10 +5,10 @@ services:
     image: mysql:8.0.29
     restart: always
     environment:
-      MYSQL_DATABASE=service-down_api
-      MYSQL_USER=service_down_api
-      MYSQL_PASSWORD=IsTheServiceIsDown8
-      MYSQL_ROOT_PASSWORD=TheRoot_P@ssw0rd
+      MYSQL_DATABASE: 'service-down_api'
+      MYSQL_USER: 'service_down_api'
+      MYSQL_PASSWORD: 'IsTheServiceIsDown8'
+      MYSQL_ROOT_PASSWORD: 'TheRoot_P@ssw0rd'
     ports:
       - '3306:3306'
     expose:
