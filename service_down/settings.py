@@ -32,7 +32,10 @@ DATABASES = {
         'USER': DB_USER,
         'PASSWORD': DB_PASSWORD,
         'HOST': DB_HOST,
-        'PORT': DB_PORT
+        'PORT': DB_PORT,
+        'OPTIONS': {
+            'auth_plugin': 'mysql_native_password'
+        }
     }
 }
 
