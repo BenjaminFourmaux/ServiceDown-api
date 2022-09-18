@@ -1,0 +1,26 @@
+version: '3.3'
+
+services:
+  db:
+    image: mysql:8.0.29
+    container_name: db_mysql_container
+    environment:
+      MYSQL_DATABASE: 'service-down_api'
+      MYSQL_USER: 'service_down_api'
+      MYSQL_PASSWORD: 'IsTheServiceIsDown8'
+      MYSQL_ROOT_PASSWORD: 'TheRoot_P@ssw0rd'
+    ports:
+      - '3306:3306'
+    expose:
+      - '3306'
+  api:
+    build: .
+    container_name: django_container
+    command: bash -c "python manage.py migrate &&
+                      python manage.py runserver 0.0.0.0:8000"
+    volumes:
+      - .:/app
+    ports:
+      - '8000:8000'
+    depends_on:
+      - db
