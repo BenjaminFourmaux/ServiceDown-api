@@ -2,7 +2,7 @@ from api.models import Country, Service
 from api.utils import CountryNotFound, CountryNotAvailable, ServiceNotFound, ServiceNotInCountry
 
 
-class ViewUtils:
+class CheckControlsUtils:
 
     @staticmethod
     def check_country(country_id) -> Country:

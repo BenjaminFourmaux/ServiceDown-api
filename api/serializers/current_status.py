@@ -1,8 +1,9 @@
 from rest_framework import serializers
-from api.models import Status
+from api.models import CurrentStatus
 
 
-class StatusSerializer(serializers.ModelSerializer):
+class CurrentStatusSerializer(serializers.ModelSerializer):
     class Meta:
-        model = Status
-        fields = ('service', 'country', 'status.label')
+        model = CurrentStatus
+        fields = ('service', 'country', 'status')
+        depth = 1

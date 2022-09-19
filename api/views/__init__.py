@@ -3,3 +3,4 @@ from .country import *
 from .service import *
 from .report import *
 from .search import *
+from .status import *

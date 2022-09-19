@@ -1,9 +1,8 @@
 from django.db import models
-
 from api.models import Service, Country, Status
 
 
-class CurrentStatusModel(models.Model):
+class CurrentStatus(models.Model):
     class Meta:
         db_table = 'current_state'
 
