@@ -4,7 +4,7 @@ from api.models import Service, Country, Status
 
 class CurrentStatus(models.Model):
     class Meta:
-        db_table = 'current_state'
+        db_table = 'current_status'
 
     objects = models.Manager()
 
