@@ -24,7 +24,6 @@ class StatusViewSet(viewsets.ModelViewSet):
 
     def create(self, request, *args, **kwargs):
         raise MethodNotAllowed
-
     # </editor-fold>
 
     @action(methods=['GET'], detail=False, url_path='types', url_name='types status')

@@ -10,6 +10,13 @@ class APIError(APIException):
     string_args = []
 
 
+class MethodNotAllowed(APIError):
+    status_code = 405
+    error_code = 2
+    error_name = 'method_not_allowed'
+    error_message = 'Method: {0} not allowed on node: {1}'
+
+
 class SerializerHasNoField(APIError):
     status_code = 400
     error_code = 3
@@ -22,8 +29,13 @@ class SerializerHasNoField(APIError):
         self.detail = self.error_message
 
 
-class MethodNotAllowed(APIError):
-    status_code = 405
-    error_code = 2
-    error_name = 'method_not_allowed'
-    error_message = 'Method: {0} not allowed on node: {1}'
+class PagingIndexOut(APIError):
+    status_code = 400
+    error_code = 4
+    error_name = 'paging_index_out_of_range'
+    error_message = 'Paging index: {0} out of range ({1}, {2})'
+
+    def __init__(self, bind_value: []):
+        super()
+        self.error_message = self.error_message.format(*bind_value)
+        self.detail = self.error_message
