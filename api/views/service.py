@@ -48,7 +48,7 @@ class ServiceViewSet(viewsets.ModelViewSet):
 
         services_by_country_with_status = CurrentStatus.objects.filter(country__id=country_id).order_by('service__name')
         # Pagination
-        pagination = Paginator(services_by_country_with_status, 6)
+        pagination = Paginator(services_by_country_with_status, 20)
         serializer = PagingSerializer(pagination, CurrentStatusSerializer)
 
         # Check paging index
