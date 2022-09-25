@@ -24,6 +24,7 @@ class StatusViewSet(viewsets.ModelViewSet):
 
     def create(self, request, *args, **kwargs):
         raise MethodNotAllowed
+
     # </editor-fold>
 
     @action(methods=['GET'], detail=False, url_path='types', url_name='types status')
@@ -31,6 +32,18 @@ class StatusViewSet(viewsets.ModelViewSet):
         status_type = Status.objects.all()
         serializer = StatusSerializer(status_type, many=True)
         return Response(serializer.data)
+
+    @action(methods=['GET'], detail=False, url_path='service/(?P<service_id>\w+)/country/(?P<country_id>\w+)',
+            url_name='service status')
+    def service_status_by_country(self, request, service_id, country_id, *args, **kwargs):
+        # Check
+        CheckControlsUtils.check_service_country(service_id, country_id)
+
+        current_status = self.queryset.filter(Q(service=service_id) & Q(country=country_id)).first()
+
+        serializer = StatusSerializer(current_status.status, many=False)
+
+        return Response(serializer.data, status=status.HTTP_200_OK)
 
     @action(methods=['GET'], detail=False, url_path='current_outage', url_name='get services current outage')
     def services_current_outage(self, request, *args, **kwargs):
