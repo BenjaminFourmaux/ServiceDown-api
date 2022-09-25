@@ -1,11 +1,12 @@
 from django.core.paginator import Paginator
 from django.db.models import Q
+from django.db import models
 from rest_framework import viewsets, status
 from rest_framework.decorators import action
 from rest_framework.response import Response
 from api.models import Service, StatsReport1H, StatsReport24H, CurrentStatus
 from api.serializers import ServiceSerializer, ServiceSerializerFields, StatsReport1HSerializer, \
-    StatsReport24HSerializer, PagingSerializer, CurrentStatusSerializer
+    StatsReport24HSerializer, PagingSerializer, CurrentStatusSerializer, ServiceWithStatusSerializer
 from api.utils import MethodNotAllowed
 from api.utils.check_controls import CheckControlsUtils
 
@@ -46,7 +47,8 @@ class ServiceViewSet(viewsets.ModelViewSet):
         # Check
         CheckControlsUtils.check_country(country_id)
 
-        services_by_country_with_status = CurrentStatus.objects.filter(country__id=country_id).order_by('service__name')
+        services_by_country_with_status = CurrentStatus.objects.filter(country=country_id).order_by('service__name')
+
         # Pagination
         pagination = Paginator(services_by_country_with_status, 20)
         serializer = PagingSerializer(pagination, CurrentStatusSerializer)

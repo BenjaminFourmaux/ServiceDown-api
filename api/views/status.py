@@ -41,7 +41,7 @@ class StatusViewSet(viewsets.ModelViewSet):
 
             services_outage = self.queryset.filter(
                 outage_status_q
-                |
+                &
                 Q(country__id=request.GET['country'])
             ).order_by('-status')[:int(request.GET['count'])]
 
@@ -50,7 +50,7 @@ class StatusViewSet(viewsets.ModelViewSet):
 
             services_outage = self.queryset.filter(
                 outage_status_q
-                |
+                &
                 Q(country__id=request.GET['country'])
             ).order_by('-status')
         elif 'count' in request.GET:

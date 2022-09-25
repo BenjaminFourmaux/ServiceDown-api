@@ -1,5 +1,5 @@
 # ServiceDown-api
-Open Services StatusEnum Data
+Open Services Status Data
 \
 [![](https://badgen.net/badge/Service/Down/red)]()
 [![](https://img.shields.io/badge/python-3.9-blue?logo=python&logoColor=yellow)]()
@@ -55,6 +55,7 @@ Run server : ``python manage.py runserver``
 ## Contributors
 [![](https://badgen.net/github/contributors/BenjaminFourmaux/ServiceDown-api)](https://github.com/BenjaminFourmaux/ServiceDown-api/graphs/contributors)
 - :crown: [Benjamin Fourmaux](https://github.com/BenjaminFourmaux)
+
 ## Supporting
 If you like this project and if you want, make a donation
 
