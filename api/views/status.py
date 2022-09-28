@@ -2,7 +2,7 @@ from rest_framework import viewsets, status
 from rest_framework.decorators import action
 from rest_framework.response import Response
 from api.models import CurrentStatus, Status
-from api.serializers import CurrentStatusSerializer
+from api.serializers import CurrentStatusSerializer, CurrentStatusWithStatsSerializer
 from api.serializers.status import StatusSerializer
 from api.utils import MethodNotAllowed
 from django.db.models import Q
@@ -36,12 +36,13 @@ class StatusViewSet(viewsets.ModelViewSet):
     @action(methods=['GET'], detail=False, url_path='service/(?P<service_id>\w+)/country/(?P<country_id>\w+)',
             url_name='service status')
     def service_status_by_country(self, request, service_id, country_id, *args, **kwargs):
+        # TODO:  make it with 'fields' url param
         # Check
         CheckControlsUtils.check_service_country(service_id, country_id)
 
         current_status = self.queryset.filter(Q(service=service_id) & Q(country=country_id)).first()
 
-        serializer = StatusSerializer(current_status.status, many=False)
+        serializer = CurrentStatusWithStatsSerializer(current_status, many=False)
 
         return Response(serializer.data, status=status.HTTP_200_OK)
 
