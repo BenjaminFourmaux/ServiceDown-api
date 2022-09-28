@@ -7,7 +7,7 @@ from rest_framework.response import Response
 from api.models import Service, StatsReport1H, StatsReport24H, CurrentStatus
 from api.serializers import ServiceSerializer, ServiceSerializerFields, StatsReport1HSerializer, \
     StatsReport24HSerializer, PagingSerializer, CurrentStatusSerializer, ServiceWithStatusSerializer
-from api.utils import MethodNotAllowed
+from api.utils import MethodNotAllowed, UrlParameterMissing, ServiceNotFound
 from api.utils.check_controls import CheckControlsUtils
 
 
@@ -40,6 +40,21 @@ class ServiceViewSet(viewsets.ModelViewSet):
             output = self.get_serializer(service, many=False)
 
         return Response(output.data, status=status.HTTP_200_OK)
+
+    @action(methods=['GET'], detail=False, url_path='by_path', url_name='get country by path')
+    def retrieve_by_path(self, request, *args, **kwargs):
+        if 'country' in request.GET and 'path' in request.GET:
+            # Get Service by country and path
+            CheckControlsUtils.check_country(request.GET.get('country'))
+
+            service = self.queryset.filter(Q(countries__in=[request.GET.get('country')]) & Q(path__exact=request.GET.get('path'))).first()
+            if not service:
+                raise ServiceNotFound
+            serializer = self.serializer_class(service, many=False)
+
+            return Response(serializer.data, status=status.HTTP_200_OK)
+        else:
+            raise UrlParameterMissing
 
     @action(methods=['GET'], detail=False, url_path='country/(?P<country_id>\w+)/with_status',
             url_name='services by country with status')

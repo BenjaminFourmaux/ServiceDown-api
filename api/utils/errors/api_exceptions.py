@@ -39,3 +39,11 @@ class PagingIndexOut(APIError):
         super()
         self.error_message = self.error_message.format(*bind_value)
         self.detail = self.error_message
+
+
+class UrlParameterMissing(APIError):
+    status_code = 400
+    error_code = 5
+    error_name = 'url_parameter_missing'
+    error_message = 'Url parameter missing'
+
