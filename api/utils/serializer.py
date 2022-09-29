@@ -1,3 +1,4 @@
+from api.models import StatsReport24H
 from api.utils import SerializerHasNoField
 
 
@@ -9,3 +10,32 @@ class SerializerUtils:
             if field not in serializer_field:
                 # Raise error
                 raise SerializerHasNoField([field, serializer_name])
+
+    @staticmethod
+    def emptyStats24H(stats_obj: StatsReport24H) -> StatsReport24H:
+        stats_obj.interval1hours = 0
+        stats_obj.interval2hours = 0
+        stats_obj.interval3hours = 0
+        stats_obj.interval4hours = 0
+        stats_obj.interval5hours = 0
+        stats_obj.interval6hours = 0
+        stats_obj.interval7hours = 0
+        stats_obj.interval8hours = 0
+        stats_obj.interval9hours = 0
+        stats_obj.interval10hours = 0
+        stats_obj.interval11hours = 0
+        stats_obj.interval12hours = 0
+        stats_obj.interval13hours = 0
+        stats_obj.interval14hours = 0
+        stats_obj.interval15hours = 0
+        stats_obj.interval16hours = 0
+        stats_obj.interval17hours = 0
+        stats_obj.interval18hours = 0
+        stats_obj.interval19hours = 0
+        stats_obj.interval20hours = 0
+        stats_obj.interval21hours = 0
+        stats_obj.interval22hours = 0
+        stats_obj.interval23hours = 0
+        stats_obj.interval24hours = 0
+        stats_obj.totalReport = 0
+        return stats_obj

@@ -3,6 +3,7 @@ from django.db.models import Q
 from api.models import CurrentStatus, StatsReport24H
 from api.serializers import ServiceWithStatusSerializer, StatsReport24HSerializer
 from api.serializers.status import StatusSerializer
+from api.utils import SerializerUtils
 
 
 class CurrentStatusSerializer(serializers.ModelSerializer):
@@ -37,4 +38,13 @@ class CurrentStatusWithStatsSerializer(serializers.ModelSerializer):
     @staticmethod
     def get_stats24h(obj):
         stats24h = StatsReport24H.objects.filter(Q(country=obj.country) & Q(service=obj.service)).first()
+
+        # Create empty Stats object when no report for service/country in bd
+        if not stats24h:
+            stats24h = StatsReport24H()
+            stats24h.id = 0
+            stats24h.service = obj.service
+            stats24h.country = obj.country
+            stats24h = SerializerUtils.emptyStats24H(stats24h)
+
         return StatsReport24HSerializer(stats24h, many=False).data
