@@ -34,23 +34,13 @@ Make fixtures (seed database) with custom command : ``python manage.py loadfixtu
 Run server : ``python manage.py runserver``
 
 ## Roadmap
-- [ ] Create Endpoints:
-  - [ ] Service
-  - [x] Report
-  - [x] Country
-- [x] Normalize error response with json template
-- [x] Save nb reports
-- [ ] Use Baerer token (in http header) to auth user
-- [ ] **v2** Get token info (scopes, request limit) with a endpoint
-- [ ] **v2** Return .svg graph about last 12 hour nb reports of an service
-- [ ] **v2** *Admin* Store logs and get metrics about user usage (how many request by user, what endpoint...)
-- [ ] **V3** *Webhook* Implement webhook subscription
+- **v1.1**: Service categories
+- **v1.5** "Log4me" Log actions and send it to the Discord Bot
+- **v2**: Auth and user account
 
 ## Version
 [![](https://badgen.net/github/tag/BenjaminFourmaux/ServiceDown-api?cache=600)](https://github.com/BenjaminFourmaux/ServiceDown-api/tags) [![](https://badgen.net/github/release/BenjaminFourmaux/ServiceDown-api?cache=600)](https://github.com/BenjaminFourmaux/ServiceDown-api/releases)
-- [in progress][v1] Able to push in prod and works perfectly with Website
-- [in coming][v1.5] "Log4me" Add custom logger to save log in .md file
-- [in coming][v2] "Bearer" Add authentication (idk ?)
+- [coming soon][v1] First API version with basic actions
 
 ## Contributors
 [![](https://badgen.net/github/contributors/BenjaminFourmaux/ServiceDown-api)](https://github.com/BenjaminFourmaux/ServiceDown-api/graphs/contributors)
