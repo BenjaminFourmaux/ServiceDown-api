@@ -4,7 +4,7 @@ from rest_framework.response import Response
 from api.models import Country
 from api.serializers import CountrySerializer
 from api.utils import CountryNotAvailable, CountryShortnameNotExist
-from api.utils.view import ViewUtils
+from api.utils.check_controls import CheckControlsUtils
 
 
 class CountryViewSet(viewsets.ModelViewSet):
@@ -21,7 +21,7 @@ class CountryViewSet(viewsets.ModelViewSet):
 
     def retrieve(self, request, *args, **kwargs):
         # Checkout
-        country = ViewUtils.check_country(self.get_object().id)
+        country = CheckControlsUtils.check_country(self.get_object().id)
 
         output = self.serializer_class(country)
         return Response(output.data, status=status.HTTP_200_OK)

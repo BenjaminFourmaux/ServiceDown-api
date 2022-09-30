@@ -1,8 +1,10 @@
+from django.core.paginator import Paginator
+
 from api.models import Country, Service
-from api.utils import CountryNotFound, CountryNotAvailable, ServiceNotFound, ServiceNotInCountry
+from api.utils import CountryNotFound, CountryNotAvailable, ServiceNotFound, ServiceNotInCountry, PagingIndexOut
 
 
-class ViewUtils:
+class CheckControlsUtils:
 
     @staticmethod
     def check_country(country_id) -> Country:
@@ -29,3 +31,11 @@ class ViewUtils:
 
         if country not in service.countries.all():
             raise ServiceNotInCountry
+
+    @classmethod
+    def check_pagination_page_num(cls, paginator: Paginator, page_num):
+        if page_num in paginator.page_range:
+            pass
+        else:
+            raise PagingIndexOut([page_num, paginator.page_range.start, paginator.page_range.stop])
+

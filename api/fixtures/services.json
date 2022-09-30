@@ -95,7 +95,6 @@
             "cname": "AEPTEXAS",
             "path": "/status/american-electric-power-texas",
             "countries": [
-                74,
                 230
             ]
         }
@@ -392,8 +391,8 @@
         "pk": 32,
         "fields": {
             "name": "Candy Crush Saga",
-            "cname": "CANDYCRUSH",
-            "path": "/status/candy-crush-saga",
+            "cname": "KING",
+            "path": "/status/king",
             "countries": [
                 74
             ]
@@ -500,8 +499,8 @@
         "pk": 41,
         "fields": {
             "name": "CloudfLare",
-            "cname": "CLOUNDFLARE",
-            "path": "/status/cloundflare",
+            "cname": "CLOUDFLARE",
+            "path": "/status/cloudflare",
             "countries": [
                 74,
                 230
@@ -516,7 +515,6 @@
             "cname": "CMCMARKETS",
             "path": "/status/cmc-markets",
             "countries": [
-                74,
                 230
             ]
         }
@@ -1824,7 +1822,7 @@
             "cname": "ORANGE",
             "description": "French Internet provider",
             "path": "/status/orange-france",
-            "website": "www.orange.fr",
+            "website": "https://www.orange.fr",
             "twitterUsername": "orange",
             "countries": [
                 74

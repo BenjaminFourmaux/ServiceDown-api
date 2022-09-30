@@ -45,6 +45,7 @@ Run server : ``python manage.py runserver``
 ## Contributors
 [![](https://badgen.net/github/contributors/BenjaminFourmaux/ServiceDown-api)](https://github.com/BenjaminFourmaux/ServiceDown-api/graphs/contributors)
 - :crown: [Benjamin Fourmaux](https://github.com/BenjaminFourmaux)
+
 ## Supporting
 If you like this project and if you want, make a donation
 

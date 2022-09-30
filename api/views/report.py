@@ -5,7 +5,7 @@ from rest_framework.decorators import action
 from api.models import Report
 from api.serializers.report import ReportSerializer
 from api.utils import MethodNotAllowed
-from api.utils.view import ViewUtils
+from api.utils.check_controls import CheckControlsUtils
 
 
 class ReportViewSet(viewsets.ModelViewSet):
@@ -26,7 +26,7 @@ class ReportViewSet(viewsets.ModelViewSet):
     @action(methods=['GET'], detail=False, url_path='(?P<service_id>\w+)/(?P<country_id>\w+)', url_name='get report of service-country')
     def list_report_from_service_country(self, request, service_id, country_id):
         # Checkout
-        ViewUtils.check_service_country(service_id, country_id)
+        CheckControlsUtils.check_service_country(service_id, country_id)
 
         reports = self.queryset.filter(Q(service__id=service_id) & Q(country__id=country_id)).all()
         serializer = self.serializer_class(reports, many=True)

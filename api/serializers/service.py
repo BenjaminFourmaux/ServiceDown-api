@@ -1,6 +1,6 @@
 from rest_framework import serializers
-from api.models import Service
-from api.utils import SerializerHasNoField, SerializerUtils
+from api.models import Service, CurrentStatus
+from api.utils import SerializerUtils
 
 
 class ServiceSerializer(serializers.ModelSerializer):
@@ -35,3 +35,10 @@ class ServiceSerializerFields(DynamicFieldsSerializer):
         model = Service
         fields = '__all__'
         depth = 1
+
+
+class ServiceWithStatusSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Service
+        fields = ('id', 'name', 'cname', 'path',  'countries')
+
