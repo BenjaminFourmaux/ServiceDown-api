@@ -6,7 +6,7 @@ from api.utils import SerializerUtils
 class ServiceSerializer(serializers.ModelSerializer):
     class Meta:
         model = Service
-        fields = ('id', 'name', 'cname', 'description', 'path', 'website', 'twitterUsername', 'countries')
+        fields = ('id', 'name', 'slug', 'description', 'path', 'website', 'twitterUsername', 'countries')
         depth = 1
 
 
@@ -40,5 +40,5 @@ class ServiceSerializerFields(DynamicFieldsSerializer):
 class ServiceWithStatusSerializer(serializers.ModelSerializer):
     class Meta:
         model = Service
-        fields = ('id', 'name', 'cname', 'path',  'countries')
+        fields = ('id', 'name', 'slug', 'path',  'countries')
 
