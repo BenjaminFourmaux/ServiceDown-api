@@ -4,7 +4,7 @@
         "pk": 1,
         "fields": {
             "name": "2k",
-            "cname": "2K",
+            "slug": "2k",
             "path": "/status/2k",
             "countries": [
                 74,
@@ -17,7 +17,7 @@
         "pk": 2,
         "fields": {
             "name": "Alaska Communication",
-            "cname": "ALASKACOMMUNICATION",
+            "slug": "alaska-communication",
             "path": "/status/alaska-communication",
             "countries": [
                 230
@@ -29,7 +29,7 @@
         "pk": 3,
         "fields": {
             "name": "Allstate",
-            "cname": "ALLSTATE",
+            "slug": "allstate",
             "path": "/status/allstate",
             "countries": [
                 230
@@ -41,7 +41,7 @@
         "pk": 4,
         "fields": {
             "name": "Amazon",
-            "cname": "AMAZON",
+            "slug": "amazon",
             "path": "/status/amazon",
             "countries": [
                 74,
@@ -54,7 +54,7 @@
         "pk": 5,
         "fields": {
             "name": "Amazon Prime",
-            "cname": "AMAZONPRIME",
+            "slug": "amazon-prime",
             "path": "/status/amazon-prime-instant-video",
             "countries": [
                 74,
@@ -67,7 +67,7 @@
         "pk": 6,
         "fields": {
             "name": "Amazon Web Services",
-            "cname": "AWS",
+            "slug": "aws",
             "path": "/status/amazon-web-services-aws",
             "countries": [
                 74,
@@ -80,7 +80,7 @@
         "pk": 7,
         "fields": {
             "name": "American Electric Power - Ohio",
-            "cname": "AEPOHIO",
+            "slug": "aepohio",
             "path": "/status/american-electric-power-ohio",
             "countries": [
                 230
@@ -92,9 +92,10 @@
         "pk": 8,
         "fields": {
             "name": "American Electric Power - Texas",
-            "cname": "AEPTEXAS",
+            "slug": "aeptexas",
             "path": "/status/american-electric-power-texas",
             "countries": [
+                74,
                 230
             ]
         }
@@ -104,7 +105,7 @@
         "pk": 9,
         "fields": {
             "name": "Anthem",
-            "cname": "ANTHEM",
+            "slug": "anthem",
             "path": "/status/anthem-game",
             "countries": [
                 74,
@@ -117,7 +118,7 @@
         "pk": 10,
         "fields": {
             "name": "AOL",
-            "cname": "AOL",
+            "slug": "aol",
             "path": "/status/aol-america-online",
             "countries": [
                 230
@@ -129,7 +130,7 @@
         "pk": 11,
         "fields": {
             "name": "Apex Legends",
-            "cname": "APEXLEGENDS",
+            "slug": "apex-legends",
             "path": "/status/apex-legends",
             "countries": [
                 74,
@@ -142,7 +143,7 @@
         "pk": 12,
         "fields": {
             "name": "Appalachian Power",
-            "cname": "APPALACHIANPOWER",
+            "slug": "appalachian-power",
             "path": "/status/appalachian-power",
             "countries": [
                 230
@@ -153,9 +154,9 @@
         "model": "api.service",
         "pk": 13,
         "fields": {
-            "name": "Apple Store",
-            "cname": "APPLESTORE",
-            "path": "/status/apple-store",
+            "name": "Apple",
+            "slug": "apple",
+            "path": "/status/apple",
             "countries": [
                 74,
                 230
@@ -167,7 +168,7 @@
         "pk": 14,
         "fields": {
             "name": "Arlo",
-            "cname": "ARLO",
+            "slug": "arlo",
             "path": "/status/arlo",
             "countries": [
                 74,
@@ -180,7 +181,7 @@
         "pk": 15,
         "fields": {
             "name": "Arvig",
-            "cname": "ARVIG",
+            "slug": "arvig",
             "path": "/status/arvig",
             "countries": [
                 230
@@ -192,7 +193,7 @@
         "pk": 16,
         "fields": {
             "name": "Atlantic Broadband",
-            "cname": "ATLANTICBROADBAND",
+            "slug": "atlantic-broadband",
             "path": "/status/atlantic-broadband",
             "countries": [
                 230
@@ -204,7 +205,7 @@
         "pk": 17,
         "fields": {
             "name": "AT&T",
-            "cname": "ATT",
+            "slug": "att",
             "path": "/status/att",
             "countries": [
                 230
@@ -216,7 +217,7 @@
         "pk": 18,
         "fields": {
             "name": "Bank Of America",
-            "cname": "BANKOFAMERICA",
+            "slug": "bank-of-america",
             "path": "/status/bank-of-america",
             "countries": [
                 230
@@ -228,7 +229,7 @@
         "pk": 19,
         "fields": {
             "name": "Battlefield 2042",
-            "cname": "BATTLEFIELD",
+            "slug": "battlefield",
             "path": "/status/battlefield-one",
             "countries": [
                 74,
@@ -240,8 +241,8 @@
         "model": "api.service",
         "pk": 20,
         "fields": {
-            "name": "Battle Net",
-            "cname": "BATTLENET",
+            "name": "Battle.net",
+            "slug": "battlenet",
             "path": "/status/battlenet-blizzard-entertainment",
             "countries": [
                 74,
@@ -254,7 +255,7 @@
         "pk": 21,
         "fields": {
             "name": "Binance",
-            "cname": "BINANCE",
+            "slug": "binance",
             "path": "/status/binance",
             "countries": [
                 74,
@@ -267,7 +268,7 @@
         "pk": 22,
         "fields": {
             "name": "Bitfinex",
-            "cname": "BITFINEX",
+            "slug": "bitfinex",
             "path": "/status/bitfinex",
             "countries": [
                 74,
@@ -280,7 +281,7 @@
         "pk": 23,
         "fields": {
             "name": "Bitstamp",
-            "cname": "BITSTAMP",
+            "slug": "bitstamp",
             "path": "/status/bitstamp",
             "countries": [
                 74,
@@ -293,7 +294,7 @@
         "pk": 24,
         "fields": {
             "name": "Boingo",
-            "cname": "BOINGO",
+            "slug": "boingo",
             "path": "/status/boingo",
             "countries": [
                 230
@@ -305,7 +306,7 @@
         "pk": 25,
         "fields": {
             "name": "Boost Mobile",
-            "cname": "BOOSTMOBILE",
+            "slug": "boost-mobile",
             "path": "/status/boost-mobile",
             "countries": [
                 230
@@ -317,7 +318,7 @@
         "pk": 26,
         "fields": {
             "name": "Bouygues Telecom",
-            "cname": "BOUYGUES",
+            "slug": "bouygues-telecom",
             "path": "/status/bouygues-telecom",
             "countries": [
                 74
@@ -329,7 +330,7 @@
         "pk": 27,
         "fields": {
             "name": "Buckeye Broadband",
-            "cname": "BUCKEYEBROADBAND",
+            "slug": "buckeye-broadband",
             "path": "/status/buckeye-broadband",
             "countries": [
                 230
@@ -341,7 +342,7 @@
         "pk": 28,
         "fields": {
             "name": "C Spire Wireless",
-            "cname": "CSPIRE",
+            "slug": "cspire",
             "path": "/status/c-spire-wireless",
             "countries": [
                 230
@@ -353,7 +354,7 @@
         "pk": 29,
         "fields": {
             "name": "Cable One",
-            "cname": "CABLEONE",
+            "slug": "cableone",
             "path": "/status/cable-one",
             "countries": [
                 230
@@ -365,7 +366,7 @@
         "pk": 30,
         "fields": {
             "name": "Call Of Duty",
-            "cname": "CALLOFDUTY",
+            "slug": "call-of-duty",
             "path": "/status/call-of-duty",
             "countries": [
                 74,
@@ -378,7 +379,7 @@
         "pk": 31,
         "fields": {
             "name": "Canalsat",
-            "cname": "CANALSAT",
+            "slug": "canalsat",
             "path": "/status/canalsat",
             "countries": [
                 74,
@@ -391,8 +392,8 @@
         "pk": 32,
         "fields": {
             "name": "Candy Crush Saga",
-            "cname": "KING",
-            "path": "/status/king",
+            "slug": "candy-crush-saga",
+            "path": "/status/candy-crush-saga",
             "countries": [
                 74
             ]
@@ -403,7 +404,7 @@
         "pk": 33,
         "fields": {
             "name": "Capital One",
-            "cname": "CAPITALONE",
+            "slug": "capital-one",
             "path": "/status/capital-one",
             "countries": [
                 230
@@ -415,7 +416,7 @@
         "pk": 34,
         "fields": {
             "name": "CashApp",
-            "cname": "CASHAPP",
+            "slug": "cashapp",
             "path": "/status/cashapp",
             "countries": [
                 230
@@ -427,7 +428,7 @@
         "pk": 35,
         "fields": {
             "name": "CenterPoint Energy",
-            "cname": "CENTERPOINTENERGY",
+            "slug": "centerpoint-energy",
             "path": "/status/centerpoint-energy",
             "countries": [
                 230
@@ -439,7 +440,7 @@
         "pk": 36,
         "fields": {
             "name": "CenturyLink",
-            "cname": "CENTURYLINK",
+            "slug": "centurylink",
             "path": "/status/centurylink",
             "countries": [
                 230
@@ -451,7 +452,7 @@
         "pk": 37,
         "fields": {
             "name": "Charter Communications",
-            "cname": "CHARTERCOMMUNICATIONS",
+            "slug": "charter-communications",
             "path": "/status/charter-communications",
             "countries": [
                 230
@@ -463,7 +464,7 @@
         "pk": 38,
         "fields": {
             "name": "Chase Bank",
-            "cname": "CHASEBANK",
+            "slug": "chase-bank",
             "path": "/status/chase-bank",
             "countries": [
                 230
@@ -475,7 +476,7 @@
         "pk": 39,
         "fields": {
             "name": "Cincinnati Bell",
-            "cname": "CINCINNATIBELL",
+            "slug": "cincinnati-bell",
             "path": "/status/cincinnati-bell",
             "countries": [
                 230
@@ -487,7 +488,7 @@
         "pk": 40,
         "fields": {
             "name": "Citibank",
-            "cname": "CITIBANK",
+            "slug": "citibank",
             "path": "/status/citigroup-bank",
             "countries": [
                 230
@@ -499,8 +500,8 @@
         "pk": 41,
         "fields": {
             "name": "CloudfLare",
-            "cname": "CLOUDFLARE",
-            "path": "/status/cloudflare",
+            "slug": "cloundflare",
+            "path": "/status/cloundflare",
             "countries": [
                 74,
                 230
@@ -512,9 +513,10 @@
         "pk": 42,
         "fields": {
             "name": "CMC Markets",
-            "cname": "CMCMARKETS",
+            "slug": "cmcmarkets",
             "path": "/status/cmc-markets",
             "countries": [
+                74,
                 230
             ]
         }
@@ -524,7 +526,7 @@
         "pk": 43,
         "fields": {
             "name": "Coinbase",
-            "cname": "COINBASE",
+            "slug": "coinbase",
             "path": "/status/coinbase",
             "countries": [
                 74,
@@ -537,7 +539,7 @@
         "pk": 44,
         "fields": {
             "name": "Comcast Xfinity",
-            "cname": "COMCASTXFINITY",
+            "slug": "comcast-xfinity",
             "path": "/status/comcast-xfinity",
             "countries": [
                 230
@@ -549,7 +551,7 @@
         "pk": 45,
         "fields": {
             "name": "Consolidated Communications",
-            "cname": "CONSOLIDATEDCOMMUNICATIONS",
+            "slug": "consolidated-communications",
             "path": "/status/consolidated-communications",
             "countries": [
                 230
@@ -561,7 +563,7 @@
         "pk": 46,
         "fields": {
             "name": "Consolidated Edison",
-            "cname": "CONSOLIDATEDEDISON",
+            "slug": "consolidated-edison",
             "path": "/status/consolidated-edison",
             "countries": [
                 230
@@ -573,7 +575,7 @@
         "pk": 47,
         "fields": {
             "name": "Consumer Cellular",
-            "cname": "CONSUMERCELLULAR",
+            "slug": "consumer-cellular",
             "path": "/status/consumer-cellular",
             "countries": [
                 230
@@ -585,7 +587,7 @@
         "pk": 48,
         "fields": {
             "name": "Counter-Strike: Global Offensive",
-            "cname": "CSGO",
+            "slug": "csgo",
             "path": "/status/counter-strike-csgo",
             "countries": [
                 74,
@@ -597,8 +599,8 @@
         "model": "api.service",
         "pk": 49,
         "fields": {
-            "name": "Cok Communications",
-            "cname": "COXCOMMUNICATIONS",
+            "name": "Cox Communications",
+            "slug": "cox-communications",
             "path": "/status/cox-communications",
             "countries": [
                 230
@@ -610,7 +612,7 @@
         "pk": 50,
         "fields": {
             "name": "Craiglist",
-            "cname": "CRAIGLIST",
+            "slug": "craiglist",
             "path": "/status/craiglist",
             "countries": [
                 230
@@ -622,7 +624,7 @@
         "pk": 51,
         "fields": {
             "name": "Cricket Wirless",
-            "cname": "CRICKETWIRLESS",
+            "slug": "cricket-wirless",
             "path": "/status/cricket-wireless",
             "countries": [
                 230
@@ -634,7 +636,7 @@
         "pk": 52,
         "fields": {
             "name": "Crunchyroll",
-            "cname": "CRUNCHYROLL",
+            "slug": "crunchyroll",
             "path": "/status/crunchyroll",
             "countries": [
                 74,
@@ -647,7 +649,7 @@
         "pk": 53,
         "fields": {
             "name": "Cryptopia",
-            "cname": "CRYPTOPIA",
+            "slug": "cryptopia",
             "path": "/status/cryptopia",
             "countries": [
                 74,
@@ -660,7 +662,7 @@
         "pk": 54,
         "fields": {
             "name": "Cyberpunk 2077",
-            "cname": "CYBERPUNK2077",
+            "slug": "cyberpunk-2077",
             "path": "/status/cyberpunk-2077",
             "countries": [
                 74,
@@ -673,7 +675,7 @@
         "pk": 55,
         "fields": {
             "name": "Destiny",
-            "cname": "DESTINY",
+            "slug": "destiny",
             "path": "/status/destiny",
             "countries": [
                 74,
@@ -686,7 +688,7 @@
         "pk": 56,
         "fields": {
             "name": "DHL",
-            "cname": "DHL",
+            "slug": "dhl",
             "path": "/status/dhl-deutschland",
             "countries": [
                 74
@@ -698,7 +700,7 @@
         "pk": 57,
         "fields": {
             "name": "Diablo",
-            "cname": "DIABLO",
+            "slug": "diablo",
             "path": "/status/diablo",
             "countries": [
                 74,
@@ -711,7 +713,7 @@
         "pk": 58,
         "fields": {
             "name": "Directv",
-            "cname": "DIRECTV",
+            "slug": "directv",
             "path": "/status/directv",
             "countries": [
                 230
@@ -723,7 +725,7 @@
         "pk": 59,
         "fields": {
             "name": "Discord",
-            "cname": "DISCORD",
+            "slug": "discord",
             "path": "/status/discord",
             "countries": [
                 74,
@@ -736,7 +738,7 @@
         "pk": 60,
         "fields": {
             "name": "Dish Network",
-            "cname": "DISHNETWORK",
+            "slug": "dishnetwork",
             "path": "/status/dish-network",
             "countries": [
                 230
@@ -748,7 +750,7 @@
         "pk": 61,
         "fields": {
             "name": "Disney Plus",
-            "cname": "DISNEYPLUS",
+            "slug": "disneyplus",
             "path": "/status/disney-plus",
             "countries": [
                 74,
@@ -761,7 +763,7 @@
         "pk": 62,
         "fields": {
             "name": "Dota 2",
-            "cname": "DOTA2",
+            "slug": "dota-2",
             "path": "/status/dota2",
             "countries": [
                 74,
@@ -774,7 +776,7 @@
         "pk": 63,
         "fields": {
             "name": "Dropbox",
-            "cname": "DROPBOX",
+            "slug": "dropbox",
             "path": "/status/dropbox",
             "countries": [
                 74,
@@ -787,7 +789,7 @@
         "pk": 64,
         "fields": {
             "name": "Duke Energy",
-            "cname": "DUKEENERGY",
+            "slug": "duke-energy",
             "path": "/status/duke-energy",
             "countries": [
                 230
@@ -799,8 +801,8 @@
         "pk": 65,
         "fields": {
             "name": "Electronic Arts",
-            "cname": "EA",
-            "path": "/status/ea-games-electronic-arts",
+            "slug": "ea",
+            "path": "/status/ea-games",
             "countries": [
                 74,
                 230
@@ -812,8 +814,8 @@
         "pk": 66,
         "fields": {
             "name": "Earthlink",
-            "cname": "EARTHLINK",
-            "path": "/status/earthlinl",
+            "slug": "earthlink",
+            "path": "/status/earthlink",
             "countries": [
                 230
             ]
@@ -824,7 +826,7 @@
         "pk": 67,
         "fields": {
             "name": "Ebay",
-            "cname": "EBAY",
+            "slug": "ebay",
             "path": "/status/ebay",
             "countries": [
                 74,
@@ -837,7 +839,7 @@
         "pk": 68,
         "fields": {
             "name": "Entergy",
-            "cname": "ENTERGY",
+            "slug": "entergy",
             "path": "/status/entergy",
             "countries": [
                 230
@@ -849,7 +851,7 @@
         "pk": 69,
         "fields": {
             "name": "Etoro",
-            "cname": "ETORO",
+            "slug": "etoro",
             "path": "/status/etoro",
             "countries": [
                 74,
@@ -862,7 +864,7 @@
         "pk": 70,
         "fields": {
             "name": "Etrade",
-            "cname": "ETRADE",
+            "slug": "etrade",
             "path": "/status/etrade",
             "countries": [
                 74,
@@ -875,7 +877,7 @@
         "pk": 71,
         "fields": {
             "name": "Eversource Energy",
-            "cname": "EVERSOURCEENERGY",
+            "slug": "eversource-energy",
             "path": "/status/eversource-energy",
             "countries": [
                 230
@@ -887,7 +889,7 @@
         "pk": 72,
         "fields": {
             "name": "Facebook",
-            "cname": "FACEBOOK",
+            "slug": "FACEBOOK",
             "path": "/status/facebook",
             "countries": [
                 74,
@@ -900,7 +902,7 @@
         "pk": 73,
         "fields": {
             "name": "Facebook Gaming",
-            "cname": "FACEBOOKGAMING",
+            "slug": "facebook-gaming",
             "path": "/status/facebook-gaming",
             "countries": [
                 230
@@ -912,7 +914,7 @@
         "pk": 74,
         "fields": {
             "name": "Facebook Messenger",
-            "cname": "MESSENGER",
+            "slug": "messenger",
             "path": "/status/facebook-messenger",
             "countries": [
                 74,
@@ -925,7 +927,7 @@
         "pk": 75,
         "fields": {
             "name": "Fall Guys",
-            "cname": "FALLGUYS",
+            "slug": "fallguys",
             "path": "/status/fallguys",
             "countries": [
                 74,
@@ -938,7 +940,7 @@
         "pk": 76,
         "fields": {
             "name": "Fallout 76",
-            "cname": "FALLOUT76",
+            "slug": "fallout-76",
             "path": "/status/fallout-76",
             "countries": [
                 74,
@@ -951,7 +953,7 @@
         "pk": 77,
         "fields": {
             "name": "Farmers Insurance",
-            "cname": "FARMERSINSURANCE",
+            "slug": "farmers-insurance",
             "path": "/status/farmers-insurance",
             "countries": [
                 230
@@ -963,7 +965,7 @@
         "pk": 78,
         "fields": {
             "name": "Fedex",
-            "cname": "FEDEX",
+            "slug": "fedex",
             "path": "/status/fedex",
             "countries": [
                 74,
@@ -976,7 +978,7 @@
         "pk": 79,
         "fields": {
             "name": "FIFA",
-            "cname": "FIFA",
+            "slug": "fifa",
             "path": "/status/fifa-ea-sports",
             "countries": [
                 74,
@@ -989,7 +991,7 @@
         "pk": 80,
         "fields": {
             "name": "Fibit",
-            "cname": "FIBIT",
+            "slug": "fibit",
             "path": "/status/fibit",
             "countries": [
                 74,
@@ -1002,7 +1004,7 @@
         "pk": 81,
         "fields": {
             "name": "Forida Power and Light",
-            "cname": "FLORIDAPOWERANDLIGHT",
+            "slug": "florida-power-and-light",
             "path": "/status/florida-power-and-light",
             "countries": [
                 230
@@ -1014,7 +1016,7 @@
         "pk": 82,
         "fields": {
             "name": "For Honor",
-            "cname": "FORHONOR",
+            "slug": "for-honor",
             "path": "/status/for-honor",
             "countries": [
                 74,
@@ -1027,7 +1029,7 @@
         "pk": 83,
         "fields": {
             "name": "Forex.com",
-            "cname": "FOREXDOTCOM",
+            "slug": "forex-dot-com",
             "path": "/status/forex-dot-com",
             "countries": [
                 74,
@@ -1040,7 +1042,7 @@
         "pk": 84,
         "fields": {
             "name": "Fornite",
-            "cname": "FORNITE",
+            "slug": "fornite",
             "path": "/status/fornite",
             "countries": [
                 74,
@@ -1053,7 +1055,7 @@
         "pk": 85,
         "fields": {
             "name": "Free",
-            "cname": "FREE",
+            "slug": "free",
             "path": "/status/free",
             "countries": [
                 74
@@ -1065,7 +1067,7 @@
         "pk": 86,
         "fields": {
             "name": "Friday The 13th: The Game",
-            "cname": "FRIDAYTHE13TH",
+            "slug": "friday-the-13th",
             "path": "/status/friday-the-13th-game",
             "countries": [
                 74,
@@ -1078,7 +1080,7 @@
         "pk": 87,
         "fields": {
             "name": "Frontier",
-            "cname": "FRONTIER",
+            "slug": "frontier",
             "path": "/status/frontier",
             "countries": [
                 230
@@ -1090,7 +1092,7 @@
         "pk": 88,
         "fields": {
             "name": "Garmin Connect",
-            "cname": "GARMIN",
+            "slug": "garmin",
             "path": "/status/garmin-connect",
             "countries": [
                 74,
@@ -1103,7 +1105,7 @@
         "pk": 89,
         "fields": {
             "name": "Gci",
-            "cname": "GCI",
+            "slug": "gci",
             "path": "/status/gci",
             "countries": [
                 230
@@ -1115,7 +1117,7 @@
         "pk": 90,
         "fields": {
             "name": "GDAX",
-            "cname": "GDAX",
+            "slug": "gdax",
             "path": "/status/gdax",
             "countries": [
                 74,
@@ -1128,7 +1130,7 @@
         "pk": 91,
         "fields": {
             "name": "Gears of War",
-            "cname": "GEARSOFXAR",
+            "slug": "gears-of-war",
             "path": "/status/gears-of-war",
             "countries": [
                 74,
@@ -1141,7 +1143,7 @@
         "pk": 92,
         "fields": {
             "name": "Geico",
-            "cname": "GEICO",
+            "slug": "geico",
             "path": "/status/geico",
             "countries": [
                 230
@@ -1153,7 +1155,7 @@
         "pk": 93,
         "fields": {
             "name": "Georgia Power",
-            "cname": "GEORGIAPOWER",
+            "slug": "georgia-power",
             "path": "/status/georgia-power",
             "countries": [
                 230
@@ -1165,7 +1167,7 @@
         "pk": 94,
         "fields": {
             "name": "GitHub",
-            "cname": "GITHUB",
+            "slug": "github",
             "path": "/status/github",
             "countries": [
                 74,
@@ -1178,7 +1180,7 @@
         "pk": 95,
         "fields": {
             "name": "Gmail",
-            "cname": "GMAIL",
+            "slug": "gmail",
             "path": "/status/gmail",
             "countries": [
                 74,
@@ -1191,7 +1193,7 @@
         "pk": 96,
         "fields": {
             "name": "GoDaddy",
-            "cname": "GODADDY",
+            "slug": "godaddy",
             "path": "/status/godaddy",
             "countries": [
                 74,
@@ -1204,7 +1206,7 @@
         "pk": 97,
         "fields": {
             "name": "Google Cloud Platform",
-            "cname": "GOOGLECLOUD",
+            "slug": "google-cloud",
             "path": "/status/google-cloud",
             "countries": [
                 74,
@@ -1217,7 +1219,7 @@
         "pk": 98,
         "fields": {
             "name": "Google Fi",
-            "cname": "GOOGLEFI",
+            "slug": "google-fi",
             "path": "/status/google-fi",
             "countries": [
                 230
@@ -1229,7 +1231,7 @@
         "pk": 99,
         "fields": {
             "name": "Google Fiber",
-            "cname": "GOOGLEFIBER",
+            "slug": "google-fiber",
             "path": "/status/google-fiber",
             "countries": [
                 230
@@ -1241,7 +1243,7 @@
         "pk": 100,
         "fields": {
             "name": "Google Nest",
-            "cname": "GOOGLENEST",
+            "slug": "google-nest",
             "path": "/status/google-nest",
             "countries": [
                 74,
@@ -1254,7 +1256,7 @@
         "pk": 101,
         "fields": {
             "name": "Grande Communications",
-            "cname": "GRANDECOMMUNICATIONS",
+            "slug": "grande-communications",
             "path": "/status/grande-communications",
             "countries": [
                 230
@@ -1266,7 +1268,7 @@
         "pk": 102,
         "fields": {
             "name": "Grayson Collin Electric Cooperative",
-            "cname": "GCEC",
+            "slug": "gcec",
             "path": "/status/grayson-collin-electric-cooperative-gcec",
             "countries": [
                 230
@@ -1278,8 +1280,8 @@
         "pk": 103,
         "fields": {
             "name": "Greenlight Networks",
-            "cname": "GREENLIGHTNETWORK",
-            "path": "/status/greenlight-network",
+            "slug": "greenlight-networks",
+            "path": "/status/greenlight-networks",
             "countries": [
                 230
             ]
@@ -1290,7 +1292,7 @@
         "pk": 104,
         "fields": {
             "name": "Grand theft auto V",
-            "cname": "GTAV",
+            "slug": "gta-v",
             "path": "/status/gta-v-grand-theft-auto-v",
             "countries": [
                 74,
@@ -1303,7 +1305,7 @@
         "pk": 105,
         "fields": {
             "name": "H1Z1",
-            "cname": "H1Z1",
+            "slug": "h1z1",
             "path": "/status/h1z1",
             "countries": [
                 74,
@@ -1316,7 +1318,7 @@
         "pk": 106,
         "fields": {
             "name": "Halo",
-            "cname": "HALO",
+            "slug": "halo",
             "path": "/status/halo-game",
             "countries": [
                 74,
@@ -1329,7 +1331,7 @@
         "pk": 107,
         "fields": {
             "name": "Hawaiian Telcom",
-            "cname": "HAWAIIANTELCOM",
+            "slug": "hawaiian-telcom",
             "path": "/status/hawaiian-telcom",
             "countries": [
                 230
@@ -1341,7 +1343,7 @@
         "pk": 108,
         "fields": {
             "name": "HBO Go",
-            "cname": "HBOGO",
+            "slug": "hbo-go",
             "path": "/status/hbo-go",
             "countries": [
                 230
@@ -1353,7 +1355,7 @@
         "pk": 109,
         "fields": {
             "name": "HBO Max",
-            "cname": "HBOMAX",
+            "slug": "hbo-max",
             "path": "/status/hbo-max",
             "countries": [
                 74,
@@ -1366,7 +1368,7 @@
         "pk": 110,
         "fields": {
             "name": "HostGator",
-            "cname": "HOSTGATOR",
+            "slug": "hostgator",
             "path": "/status/hostgator",
             "countries": [
                 74,
@@ -1379,7 +1381,7 @@
         "pk": 111,
         "fields": {
             "name": "Hughesnet USA",
-            "cname": "HUGHESNETUSA",
+            "slug": "hughesnet-usa",
             "path": "/status/hughesnet-usa",
             "countries": [
                 230
@@ -1391,7 +1393,7 @@
         "pk": 112,
         "fields": {
             "name": "Hulu",
-            "cname": "HULU",
+            "slug": "hulu",
             "path": "/status/hulu",
             "countries": [
                 74,
@@ -1404,7 +1406,7 @@
         "pk": 113,
         "fields": {
             "name": "IG",
-            "cname": "IGBROKER",
+            "slug": "ig-broker",
             "path": "/status/ig-broker",
             "countries": [
                 74,
@@ -1417,7 +1419,7 @@
         "pk": 114,
         "fields": {
             "name": "Indiana Michigan Power",
-            "cname": "INDIANAMICHIGANPOWER",
+            "slug": "indiana-michigan-power",
             "path": "/status/indiana-michigan-power",
             "countries": [
                 230
@@ -1429,7 +1431,7 @@
         "pk": 115,
         "fields": {
             "name": "Instagram",
-            "cname": "INSTAGRAM",
+            "slug": "instagram",
             "path": "/status/instagram",
             "countries": [
                 74,
@@ -1442,7 +1444,7 @@
         "pk": 116,
         "fields": {
             "name": "Interactive Brokers",
-            "cname": "INTERACTIVEBROKERS",
+            "slug": "interactive-brokers",
             "path": "/status/interactive-brokers",
             "countries": [
                 74,
@@ -1455,7 +1457,7 @@
         "pk": 117,
         "fields": {
             "name": "IRS USA",
-            "cname": "IRSUSA",
+            "slug": "irs-usa",
             "path": "/status/irs-usa",
             "countries": [
                 230
@@ -1467,7 +1469,7 @@
         "pk": 118,
         "fields": {
             "name": "iTunes",
-            "cname": "ITUNES",
+            "slug": "itunes",
             "path": "/status/itunes",
             "countries": [
                 74,
@@ -1480,7 +1482,7 @@
         "pk": 119,
         "fields": {
             "name": "Kraken",
-            "cname": "KRAKEN",
+            "slug": "kraken",
             "path": "/status/kraken",
             "countries": [
                 74,
@@ -1493,7 +1495,7 @@
         "pk": 120,
         "fields": {
             "name": "League Of Legends",
-            "cname": "LEAGUEOFLEGENDS",
+            "slug": "league-of-legends",
             "path": "/status/league-of-legends",
             "countries": [
                 74,
@@ -1506,7 +1508,7 @@
         "pk": 121,
         "fields": {
             "name": "Liberty Mutual",
-            "cname": "LIBERTYMUTUAL",
+            "slug": "liberty-mutual",
             "path": "/status/liberty-mutual",
             "countries": [
                 230
@@ -1518,7 +1520,7 @@
         "pk": 122,
         "fields": {
             "name": "London Capital Group",
-            "cname": "LCG",
+            "slug": "lcg",
             "path": "/status/london-capital-group-lgc",
             "countries": [
                 74,
@@ -1531,7 +1533,7 @@
         "pk": 123,
         "fields": {
             "name": "Lumos Networks",
-            "cname": "LUMOSNETWORKS",
+            "slug": "lumos-networks",
             "path": "/status/lumos-networks",
             "countries": [
                 230
@@ -1543,7 +1545,7 @@
         "pk": 124,
         "fields": {
             "name": "Mass Effect Andromeda",
-            "cname": "MASEFFECT",
+            "slug": "mass-effect",
             "path": "/status/mass-effect-andromeda",
             "countries": [
                 74,
@@ -1556,7 +1558,7 @@
         "pk": 125,
         "fields": {
             "name": "Mediacom",
-            "cname": "MEDIACOM",
+            "slug": "mediacom",
             "path": "/status/mediacom",
             "countries": [
                 230
@@ -1568,7 +1570,7 @@
         "pk": 126,
         "fields": {
             "name": "Metronet",
-            "cname": "METRONET",
+            "slug": "metronet",
             "path": "/status/metronet",
             "countries": [
                 230
@@ -1580,7 +1582,7 @@
         "pk": 127,
         "fields": {
             "name": "Metropcs",
-            "cname": "METROPCS",
+            "slug": "metropcs",
             "path": "/status/metropcs",
             "countries": [
                 230
@@ -1592,7 +1594,7 @@
         "pk": 128,
         "fields": {
             "name": "Microsoft Azure",
-            "cname": "AZURE",
+            "slug": "azure",
             "path": "/status/microsoft-azure",
             "countries": [
                 74,
@@ -1605,7 +1607,7 @@
         "pk": 129,
         "fields": {
             "name": "Microsoft Teams",
-            "cname": "TEAMS",
+            "slug": "teams",
             "path": "/status/microsoft-teams",
             "countries": [
                 74,
@@ -1618,7 +1620,7 @@
         "pk": 130,
         "fields": {
             "name": "Midco",
-            "cname": "MIDCO",
+            "slug": "midco",
             "path": "/status/midco",
             "countries": [
                 74,
@@ -1631,7 +1633,7 @@
         "pk": 131,
         "fields": {
             "name": "Minecraft",
-            "cname": "MINECRAFT",
+            "slug": "minecraft",
             "path": "/status/minecraft",
             "countries": [
                 74,
@@ -1644,7 +1646,7 @@
         "pk": 132,
         "fields": {
             "name": "Monster Hunter",
-            "cname": "MONSTERHUNTER",
+            "slug": "monster-hunter",
             "path": "/status/monster-hunter",
             "countries": [
                 74,
@@ -1657,7 +1659,7 @@
         "pk": 133,
         "fields": {
             "name": "Namecheap",
-            "cname": "NAMECHEAP",
+            "slug": "namecheap",
             "path": "/status/namecheap",
             "countries": [
                 74,
@@ -1670,7 +1672,7 @@
         "pk": 134,
         "fields": {
             "name": "National Grid Us",
-            "cname": "NATIONALGRIDUS",
+            "slug": "national-grid-us",
             "path": "/status/national-grid-us",
             "countries": [
                 230
@@ -1682,7 +1684,7 @@
         "pk": 135,
         "fields": {
             "name": "Nationwide",
-            "cname": "NATIONWIDE",
+            "slug": "nationwide",
             "path": "/status/nationwide",
             "countries": [
                 230
@@ -1694,7 +1696,7 @@
         "pk": 136,
         "fields": {
             "name": "Netflix",
-            "cname": "NETFLIX",
+            "slug": "netflix",
             "path": "/status/netflix",
             "countries": [
                 74,
@@ -1707,7 +1709,7 @@
         "pk": 137,
         "fields": {
             "name": "New World",
-            "cname": "NEWWORLD",
+            "slug": "new-world",
             "path": "/status/new-world-game",
             "countries": [
                 74,
@@ -1720,8 +1722,8 @@
         "pk": 138,
         "fields": {
             "name": "Nintendo",
-            "cname": "NINTENDO",
-            "path": "/status/nintendo-switch",
+            "slug": "nintendo",
+            "path": "/status/nintendo-online",
             "countries": [
                 74,
                 230
@@ -1733,7 +1735,7 @@
         "pk": 139,
         "fields": {
             "name": "Northland Communications",
-            "cname": "NORTHLANDCOMMUNICATIONS",
+            "slug": "northland-communications",
             "path": "/status/northland-communications",
             "countries": [
                 230
@@ -1745,8 +1747,8 @@
         "pk": 140,
         "fields": {
             "name": "Numericable",
-            "cname": "NUMERICABLE",
-            "path": "/status/numericable-france",
+            "slug": "numericable",
+            "path": "/status/numericable",
             "countries": [
                 74
             ]
@@ -1757,7 +1759,7 @@
         "pk": 141,
         "fields": {
             "name": "OANDA",
-            "cname": "OANDA",
+            "slug": "oanda",
             "path": "/status/oanda",
             "countries": [
                 74,
@@ -1770,7 +1772,7 @@
         "pk": 142,
         "fields": {
             "name": "Office 365",
-            "cname": "OFFICE365",
+            "slug": "office-365",
             "path": "/status/office-365",
             "countries": [
                 74,
@@ -1783,7 +1785,7 @@
         "pk": 143,
         "fields": {
             "name": "Oncor",
-            "cname": "ONCOR",
+            "slug": "oncor",
             "path": "/status/oncor",
             "countries": [
                 230
@@ -1795,7 +1797,7 @@
         "pk": 144,
         "fields": {
             "name": "Optical",
-            "cname": "OPTICALTEL",
+            "slug": "opticaltel",
             "path": "/status/opticaltel",
             "countries": [
                 230
@@ -1807,7 +1809,7 @@
         "pk": 145,
         "fields": {
             "name": "Optimum Cablevision",
-            "cname": "OPTIMUMCABLEVISION",
+            "slug": "optimum-cablevision",
             "path": "/status/optimum-cablevision",
             "countries": [
                 230
@@ -1819,9 +1821,9 @@
         "pk": 146,
         "fields": {
             "name": "Orange",
-            "cname": "ORANGE",
+            "slug": "ORANGE",
             "description": "French Internet provider",
-            "path": "/status/orange-france",
+            "path": "/status/orange",
             "website": "https://www.orange.fr",
             "twitterUsername": "orange",
             "countries": [
@@ -1834,7 +1836,7 @@
         "pk": 147,
         "fields": {
             "name": "Orange Bank",
-            "cname": "ORANGEBANK",
+            "slug": "orange-bank",
             "path": "/status/orange-bank",
             "twitterUsername": "OrangeBankFR",
             "countries": [
@@ -1847,7 +1849,7 @@
         "pk": 148,
         "fields": {
             "name": "Origin EA",
-            "cname": "ORIGINEA",
+            "slug": "origin-ea",
             "path": "/status/origin-ea",
             "countries": [
                 74,
@@ -1860,7 +1862,7 @@
         "pk": 149,
         "fields": {
             "name": "Outlook",
-            "cname": "OUTLOOK",
+            "slug": "outlook",
             "path": "/status/outlook-hotmail",
             "countries": [
                 74,
@@ -1873,7 +1875,7 @@
         "pk": 150,
         "fields": {
             "name": "Overwatch",
-            "cname": "OVERWATCHGAMES",
+            "slug": "overwatch-games",
             "path": "/status/overwatch-game",
             "countries": [
                 74,
@@ -1886,7 +1888,7 @@
         "pk": 151,
         "fields": {
             "name": "Paladins",
-            "cname": "PALADINS",
+            "slug": "paladins",
             "path": "/status/paladins",
             "countries": [
                 74,
@@ -1899,7 +1901,7 @@
         "pk": 152,
         "fields": {
             "name": "Pandora",
-            "cname": "PANDORA",
+            "slug": "pandora",
             "path": "/status/pandora",
             "countries": [
                 230
@@ -1911,7 +1913,7 @@
         "pk": 153,
         "fields": {
             "name": "Paramount Plus",
-            "cname": "PARAMOUNTPLUS",
+            "slug": "paramount-plus",
             "path": "/status/paramount-plus",
             "countries": [
                 74,
@@ -1924,7 +1926,7 @@
         "pk": 154,
         "fields": {
             "name": "Path Of Exile",
-            "cname": "PATHOFEXILE",
+            "slug": "path-of-exile",
             "path": "/status/path-of-exile",
             "countries": [
                 74,
@@ -1937,7 +1939,7 @@
         "pk": 155,
         "fields": {
             "name": "PayPal",
-            "cname": "PAYPAL",
+            "slug": "paypal",
             "path": "/status/paypal",
             "countries": [
                 74,
@@ -1950,7 +1952,7 @@
         "pk": 156,
         "fields": {
             "name": "Peackock TV",
-            "cname": "PEACKOCKTV",
+            "slug": "peackock-tv",
             "path": "/status/peackock-tv",
             "countries": [
                 74,
@@ -1963,7 +1965,7 @@
         "pk": 157,
         "fields": {
             "name": "Peco Energy",
-            "cname": "PECOENERGY",
+            "slug": "peco-energy",
             "path": "/status/peco-energy",
             "countries": [
                 230
@@ -1975,7 +1977,7 @@
         "pk": 158,
         "fields": {
             "name": "Pepperstone",
-            "cname": "PEPPERSTONE",
+            "slug": "pepperstone",
             "path": "/status/pepperstone",
             "countries": [
                 74,
@@ -1988,7 +1990,7 @@
         "pk": 159,
         "fields": {
             "name": "Pg And E",
-            "cname": "PGANDE",
+            "slug": "pg-an-de",
             "path": "/status/pg-and-e",
             "countries": [
                 230
@@ -2000,7 +2002,7 @@
         "pk": 160,
         "fields": {
             "name": "Player Unknowns Battleground",
-            "cname": "PUBG",
+            "slug": "pubg",
             "path": "/status/playerunknowns-battlegrounds",
             "countries": [
                 74,
@@ -2013,8 +2015,8 @@
         "pk": 161,
         "fields": {
             "name": "PlayStation Network",
-            "cname": "PSN",
-            "path": "/status/playstation-network-psn",
+            "slug": "psn",
+            "path": "/status/playstation-network",
             "countries": [
                 74,
                 230
@@ -2026,7 +2028,7 @@
         "pk": 162,
         "fields": {
             "name": "Plus500",
-            "cname": "PLUS500",
+            "slug": "plus500",
             "path": "/status/plus500",
             "countries": [
                 74,
@@ -2038,8 +2040,8 @@
         "model": "api.service",
         "pk": 163,
         "fields": {
-            "name": "Pok\u00e9mon GO",
-            "cname": "POKEMONGO",
+            "name": "Pokémon GO",
+            "slug": "pokemon-go",
             "path": "/status/pokemon-go",
             "countries": [
                 74,
@@ -2052,7 +2054,7 @@
         "pk": 164,
         "fields": {
             "name": "Progressive",
-            "cname": "PROGRESSIVE",
+            "slug": "progressive",
             "path": "/status/progressive",
             "countries": [
                 230
@@ -2064,7 +2066,7 @@
         "pk": 165,
         "fields": {
             "name": "RCN",
-            "cname": "RCN",
+            "slug": "rcn",
             "path": "/status/rcn",
             "countries": [
                 230
@@ -2076,7 +2078,7 @@
         "pk": 166,
         "fields": {
             "name": "Reddit",
-            "cname": "REDDIT",
+            "slug": "reddit",
             "path": "/status/reddit",
             "countries": [
                 74,
@@ -2089,7 +2091,7 @@
         "pk": 167,
         "fields": {
             "name": "Ring",
-            "cname": "RING",
+            "slug": "ring",
             "path": "/status/ring",
             "countries": [
                 74,
@@ -2102,7 +2104,7 @@
         "pk": 168,
         "fields": {
             "name": "Rise Broadband",
-            "cname": "RISEBROADBAND",
+            "slug": "rise-broadband",
             "path": "/status/rise-broadband",
             "countries": [
                 230
@@ -2114,7 +2116,7 @@
         "pk": 169,
         "fields": {
             "name": "RobinHood",
-            "cname": "ROBINHOOD",
+            "slug": "robinhood",
             "path": "/status/robinhood",
             "countries": [
                 74,
@@ -2127,7 +2129,7 @@
         "pk": 170,
         "fields": {
             "name": "Roblox",
-            "cname": "ROBLOX",
+            "slug": "roblox",
             "path": "/status/roblox",
             "countries": [
                 74,
@@ -2140,7 +2142,7 @@
         "pk": 171,
         "fields": {
             "name": "Rocket League",
-            "cname": "ROCKETLEAGUE",
+            "slug": "rocket-league",
             "path": "/status/rocket-league",
             "countries": [
                 74,
@@ -2153,7 +2155,7 @@
         "pk": 172,
         "fields": {
             "name": "Roku",
-            "cname": "ROKU",
+            "slug": "roku",
             "path": "/status/roku",
             "countries": [
                 74,
@@ -2166,7 +2168,7 @@
         "pk": 173,
         "fields": {
             "name": "Runescape",
-            "cname": "RUNESCAPE",
+            "slug": "runescape",
             "path": "/status/runescape",
             "countries": [
                 74,
@@ -2179,7 +2181,7 @@
         "pk": 174,
         "fields": {
             "name": "Southern California Edison",
-            "cname": "SCE",
+            "slug": "sce",
             "path": "/status/sce-southern-california-edison",
             "countries": [
                 230
@@ -2191,7 +2193,7 @@
         "pk": 175,
         "fields": {
             "name": "Sea Of Thieves",
-            "cname": "SEAOFTHIEVES",
+            "slug": "sea-of-thieves",
             "path": "/status/sea-of-thieves-game",
             "countries": [
                 74,
@@ -2204,7 +2206,7 @@
         "pk": 176,
         "fields": {
             "name": "Service Electric",
-            "cname": "SERVICEELECTRIC",
+            "slug": "service-electric",
             "path": "/status/service-electric",
             "countries": [
                 230
@@ -2216,7 +2218,7 @@
         "pk": 177,
         "fields": {
             "name": "SFR",
-            "cname": "SFR",
+            "slug": "sfr",
             "path": "/status/sfr",
             "countries": [
                 74
@@ -2228,7 +2230,7 @@
         "pk": 178,
         "fields": {
             "name": "Shazam",
-            "cname": "SHAZAM",
+            "slug": "shazam",
             "path": "/status/shazam",
             "countries": [
                 74,
@@ -2241,7 +2243,7 @@
         "pk": 179,
         "fields": {
             "name": "Shentel",
-            "cname": "SHENTEL",
+            "slug": "shentel",
             "path": "/status/shentel",
             "countries": [
                 230
@@ -2253,7 +2255,7 @@
         "pk": 180,
         "fields": {
             "name": "Signal Messenger",
-            "cname": "SIGNALMESSENGER",
+            "slug": "signal-messenger",
             "path": "/status/signal-messenger",
             "countries": [
                 74,
@@ -2266,7 +2268,7 @@
         "pk": 181,
         "fields": {
             "name": "Simple Mobile",
-            "cname": "SIMPLEMOBILE",
+            "slug": "simple-mobile",
             "path": "/status/simple-mobile",
             "countries": [
                 230
@@ -2278,7 +2280,7 @@
         "pk": 182,
         "fields": {
             "name": "Skype",
-            "cname": "SKYPE",
+            "slug": "skype",
             "path": "/status/skype",
             "countries": [
                 74,
@@ -2291,7 +2293,7 @@
         "pk": 183,
         "fields": {
             "name": "Slack",
-            "cname": "SLACK",
+            "slug": "slack",
             "path": "/status/slack",
             "countries": [
                 74,
@@ -2304,7 +2306,7 @@
         "pk": 184,
         "fields": {
             "name": "Slemco",
-            "cname": "SLEMCO",
+            "slug": "slemco",
             "path": "/status/slemco",
             "countries": [
                 230
@@ -2316,7 +2318,7 @@
         "pk": 185,
         "fields": {
             "name": "Sling",
-            "cname": "SLING",
+            "slug": "sling",
             "path": "/status/sling",
             "countries": [
                 230
@@ -2328,7 +2330,7 @@
         "pk": 186,
         "fields": {
             "name": "Smite",
-            "cname": "SMITE",
+            "slug": "smite",
             "path": "/status/smite",
             "countries": [
                 74,
@@ -2341,7 +2343,7 @@
         "pk": 187,
         "fields": {
             "name": "Snapchat",
-            "cname": "SNAPCHAT",
+            "slug": "snapchat",
             "path": "/status/snapchat",
             "countries": [
                 74,
@@ -2354,8 +2356,8 @@
         "pk": 188,
         "fields": {
             "name": "Southwestern Electric Power SWEPCO",
-            "cname": "SWEPCO",
-            "path": "/status/southwestern-electric-power-swepco",
+            "slug": "swepco",
+            "path": "/status/southwestern-electric-power",
             "countries": [
                 230
             ]
@@ -2366,7 +2368,7 @@
         "pk": 189,
         "fields": {
             "name": "Spotify",
-            "cname": "SPOTIFY",
+            "slug": "spotify",
             "path": "/status/spotify",
             "countries": [
                 74,
@@ -2379,7 +2381,7 @@
         "pk": 190,
         "fields": {
             "name": "Star Wars Battlefront",
-            "cname": "STARWARSBATTLEFRONT",
+            "slug": "star-wars-battlefront",
             "path": "/status/star-wars-battlefront",
             "countries": [
                 74,
@@ -2392,7 +2394,7 @@
         "pk": 191,
         "fields": {
             "name": "Starlink",
-            "cname": "STARLINK",
+            "slug": "starlink",
             "path": "/status/starlink",
             "countries": [
                 74,
@@ -2405,7 +2407,7 @@
         "pk": 192,
         "fields": {
             "name": "State Farm",
-            "cname": "STATEFARM",
+            "slug": "statefarm",
             "path": "/status/state-farm",
             "countries": [
                 230
@@ -2417,7 +2419,7 @@
         "pk": 193,
         "fields": {
             "name": "Steam",
-            "cname": "STEAM",
+            "slug": "steam",
             "path": "/status/steam",
             "countries": [
                 74,
@@ -2430,7 +2432,7 @@
         "pk": 194,
         "fields": {
             "name": "Straight Talk",
-            "cname": "STRAIGHTTALK",
+            "slug": "straight-talk",
             "path": "/status/straight-talk",
             "countries": [
                 230
@@ -2442,7 +2444,7 @@
         "pk": 195,
         "fields": {
             "name": "Suddenlink",
-            "cname": "SUDDENKINK",
+            "slug": "suddenkink",
             "path": "/status/suddenlink",
             "countries": [
                 230
@@ -2454,7 +2456,7 @@
         "pk": 196,
         "fields": {
             "name": "Super Mario Run",
-            "cname": "SUPERMARIORUN",
+            "slug": "super-mario-run",
             "path": "/status/super-mario-run",
             "countries": [
                 74,
@@ -2467,7 +2469,7 @@
         "pk": 197,
         "fields": {
             "name": "T Mobile",
-            "cname": "TMOBILE",
+            "slug": "tmobile",
             "path": "/status/t-mobile",
             "countries": [
                 230
@@ -2479,7 +2481,7 @@
         "pk": 198,
         "fields": {
             "name": "TD Ameritrade",
-            "cname": "TDAMERITRADE",
+            "slug": "td-ameritrade",
             "path": "/status/td-ameritrade",
             "countries": [
                 74,
@@ -2492,7 +2494,7 @@
         "pk": 199,
         "fields": {
             "name": "TDS Telecom",
-            "cname": "TDSTELECOM",
+            "slug": "tds-telecom",
             "path": "/status/tds-telecom",
             "countries": [
                 230
@@ -2504,7 +2506,7 @@
         "pk": 200,
         "fields": {
             "name": "Telegram",
-            "cname": "TELEGRAM",
+            "slug": "telegram",
             "path": "/status/telegram",
             "countries": [
                 74,
@@ -2517,7 +2519,7 @@
         "pk": 201,
         "fields": {
             "name": "The Elder Scrolls Online",
-            "cname": "THEELDERSCROLLSONLINE",
+            "slug": "the-elder-scrolls-online",
             "path": "/status/the-elder-scrolls-online",
             "countries": [
                 74,
@@ -2530,7 +2532,7 @@
         "pk": 202,
         "fields": {
             "name": "TikTok",
-            "cname": "TIKTOK",
+            "slug": "tiktok",
             "path": "/status/tiktok",
             "countries": [
                 74,
@@ -2543,7 +2545,7 @@
         "pk": 203,
         "fields": {
             "name": "Tinder",
-            "cname": "TINDER",
+            "slug": "tinder",
             "path": "/status/tinder",
             "countries": [
                 74,
@@ -2556,7 +2558,7 @@
         "pk": 204,
         "fields": {
             "name": "Tom Clancy: Ghost Recon",
-            "cname": "GHOSTRECON",
+            "slug": "ghost-recon",
             "path": "/status/tom-clancy-ghost-recon",
             "countries": [
                 74,
@@ -2569,7 +2571,7 @@
         "pk": 205,
         "fields": {
             "name": "Tom Clancy: Rainbow Six Siege",
-            "cname": "RAINBOWSIXSIEGE",
+            "slug": "rainbow-six-siege",
             "path": "/status/tom-clancy-rainbow-six-siege",
             "countries": [
                 74,
@@ -2582,7 +2584,7 @@
         "pk": 206,
         "fields": {
             "name": "Tom Clancy: The Division",
-            "cname": "THEDIVISION",
+            "slug": "the-division",
             "path": "/status/tom-clancys-the-division",
             "countries": [
                 74,
@@ -2594,8 +2596,8 @@
         "model": "api.service",
         "pk": 207,
         "fields": {
-            "name": "Tracfone Wirless",
-            "cname": "TRACFONWIRLESS",
+            "name": "TracFone Wirless",
+            "slug": "tracfone-wirless",
             "path": "/status/tracfone-wirless",
             "countries": [
                 230
@@ -2607,7 +2609,7 @@
         "pk": 208,
         "fields": {
             "name": "Trading 212",
-            "cname": "TRADING212",
+            "slug": "trading-212",
             "path": "/status/trading-212",
             "countries": [
                 74,
@@ -2620,7 +2622,7 @@
         "pk": 209,
         "fields": {
             "name": "Twitch",
-            "cname": "TWITCH",
+            "slug": "twitch",
             "path": "/status/twitch",
             "countries": [
                 74,
@@ -2633,7 +2635,7 @@
         "pk": 210,
         "fields": {
             "name": "Twitter",
-            "cname": "TWITTER",
+            "slug": "twitter",
             "path": "/status/twitter",
             "countries": [
                 74,
@@ -2645,9 +2647,9 @@
         "model": "api.service",
         "pk": 211,
         "fields": {
-            "name": "Uplay",
-            "cname": "UPLAY",
-            "path": "/status/uplay-ubisoft",
+            "name": "Ubisoft Connect",
+            "slug": "uplay",
+            "path": "/status/uplay",
             "countries": [
                 74,
                 230
@@ -2659,7 +2661,7 @@
         "pk": 212,
         "fields": {
             "name": "UPS",
-            "cname": "UPS",
+            "slug": "ups",
             "path": "/status/ups",
             "countries": [
                 74,
@@ -2672,7 +2674,7 @@
         "pk": 213,
         "fields": {
             "name": "US Cellular",
-            "cname": "USCELLULAR",
+            "slug": "us-cellular",
             "path": "/status/us-cellular",
             "countries": [
                 230
@@ -2684,7 +2686,7 @@
         "pk": 214,
         "fields": {
             "name": "United Services Automobile Association",
-            "cname": "USAA",
+            "slug": "usaa",
             "path": "/status/usaa",
             "countries": [
                 230
@@ -2696,7 +2698,7 @@
         "pk": 215,
         "fields": {
             "name": "United States Postal Service",
-            "cname": "USPS",
+            "slug": "usps",
             "path": "/status/usps",
             "countries": [
                 230
@@ -2708,7 +2710,7 @@
         "pk": 216,
         "fields": {
             "name": "Valorant",
-            "cname": "VALORANT",
+            "slug": "valorant",
             "path": "/status/valorant",
             "countries": [
                 74,
@@ -2721,7 +2723,7 @@
         "pk": 217,
         "fields": {
             "name": "Vast Broadband",
-            "cname": "VASTBROADBAND",
+            "slug": "vast-broadband",
             "path": "/status/vast-broadband",
             "countries": [
                 230
@@ -2733,7 +2735,7 @@
         "pk": 218,
         "fields": {
             "name": "Verizon",
-            "cname": "VERIZON",
+            "slug": "verizon",
             "path": "/status/verizon",
             "countries": [
                 230
@@ -2745,7 +2747,7 @@
         "pk": 219,
         "fields": {
             "name": "Verizon FIOS",
-            "cname": "VERIZONFIOS",
+            "slug": "verizon-fios",
             "path": "/status/verizon-fios",
             "countries": [
                 230
@@ -2757,7 +2759,7 @@
         "pk": 220,
         "fields": {
             "name": "Viasat",
-            "cname": "VIASAT",
+            "slug": "viasat",
             "path": "/status/viasat",
             "countries": [
                 230
@@ -2769,7 +2771,7 @@
         "pk": 221,
         "fields": {
             "name": "Viber",
-            "cname": "VIBER",
+            "slug": "viber",
             "path": "/status/viber",
             "countries": [
                 74,
@@ -2782,7 +2784,7 @@
         "pk": 222,
         "fields": {
             "name": "Virgin Mobile",
-            "cname": "VIRGINMOBILE",
+            "slug": "virgin-mobile",
             "path": "/status/virgin-mobile",
             "countries": [
                 74,
@@ -2795,7 +2797,7 @@
         "pk": 223,
         "fields": {
             "name": "Walmart Family Mobile",
-            "cname": "WALMARTFAMILYMOBILE",
+            "slug": "walmart-family-mobile",
             "path": "/status/walmart-family-mobile",
             "countries": [
                 230
@@ -2807,7 +2809,7 @@
         "pk": 224,
         "fields": {
             "name": "Warframe",
-            "cname": "WARFRAME",
+            "slug": "warframe",
             "path": "/status/warframe",
             "countries": [
                 74,
@@ -2820,8 +2822,8 @@
         "pk": 225,
         "fields": {
             "name": "Wave Broadband",
-            "cname": "WAVEBROADBAND",
-            "path": "/status/wawe-broadband",
+            "slug": "wave-broadband",
+            "path": "/status/wave-broadband",
             "countries": [
                 230
             ]
@@ -2832,7 +2834,7 @@
         "pk": 226,
         "fields": {
             "name": "Waze",
-            "cname": "WAZE",
+            "slug": "waze",
             "path": "/status/waze",
             "countries": [
                 74,
@@ -2845,7 +2847,7 @@
         "pk": 227,
         "fields": {
             "name": "Wells Fargo",
-            "cname": "WELLSFARGO",
+            "slug": "wells-fargo",
             "path": "/status/wells-fargo",
             "countries": [
                 230
@@ -2857,7 +2859,7 @@
         "pk": 228,
         "fields": {
             "name": "What's App",
-            "cname": "WHATSAPP",
+            "slug": "whatsapp",
             "path": "/status/whatsapp-messenger",
             "countries": [
                 74,
@@ -2870,7 +2872,7 @@
         "pk": 229,
         "fields": {
             "name": "Wideopenwest Networks",
-            "cname": "WIDEOPENWESTNETWORKS",
+            "slug": "wideopenwest-networks",
             "path": "/status/wideopenwest-networks",
             "countries": [
                 230
@@ -2882,7 +2884,7 @@
         "pk": 230,
         "fields": {
             "name": "WINDSTREAM",
-            "cname": "WINDSTREAM",
+            "slug": "windstream",
             "path": "/status/windstream",
             "countries": [
                 230
@@ -2894,7 +2896,7 @@
         "pk": 231,
         "fields": {
             "name": "World Of Warcraft",
-            "cname": "WORLDOFWARCRAFT",
+            "slug": "world-of-warcraft",
             "path": "/status/world-of-warcraft",
             "countries": [
                 74,
@@ -2907,7 +2909,7 @@
         "pk": 232,
         "fields": {
             "name": "XBOX Live",
-            "cname": "XBOXLIVE",
+            "slug": "xbox-live",
             "path": "/status/xbox-live",
             "countries": [
                 74,
@@ -2920,7 +2922,7 @@
         "pk": 233,
         "fields": {
             "name": "XM Trading",
-            "cname": "XMTRADING",
+            "slug": "xm-trading",
             "path": "/status/xm-trading",
             "countries": [
                 74,
@@ -2933,7 +2935,7 @@
         "pk": 234,
         "fields": {
             "name": "XTB Trading",
-            "cname": "XTBTRADING",
+            "slug": "xtb-trading",
             "path": "/status/xtb-trading",
             "countries": [
                 74,
@@ -2946,7 +2948,7 @@
         "pk": 235,
         "fields": {
             "name": "Yahoo Mail",
-            "cname": "YAHOOMAIL",
+            "slug": "yahoo-mail",
             "path": "/status/yahoo-mail",
             "countries": [
                 74,
@@ -2959,7 +2961,7 @@
         "pk": 236,
         "fields": {
             "name": "YouTube",
-            "cname": "YOUTUBE",
+            "slug": "youtube",
             "path": "/status/youtube",
             "countries": [
                 74,
@@ -2972,7 +2974,7 @@
         "pk": 237,
         "fields": {
             "name": "Ziply Fiber",
-            "cname": "ZIPLYFIBER",
+            "slug": "ziply-fiber",
             "path": "/status/ziply-fiber",
             "countries": [
                 230
@@ -2984,7 +2986,7 @@
         "pk": 238,
         "fields": {
             "name": "Zoom",
-            "cname": "ZOOM",
+            "slug": "zoom",
             "path": "/status/zoom",
             "countries": [
                 74

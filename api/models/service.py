@@ -9,7 +9,7 @@ class Service(models.Model):
         db_table = 'service'
 
     name = models.CharField(max_length=255, null=False)
-    cname = models.CharField(max_length=255, null=False)
+    slug = models.CharField(max_length=255, null=False)
     description = models.TextField(max_length=300, null=True)
     path = models.URLField(max_length=100, null=False)
     website = models.URLField(null=True)
@@ -17,4 +17,4 @@ class Service(models.Model):
     countries = models.ManyToManyField(Country)
 
     def __str__(self):
-        return "%s - %s" % (self.name, self.cname)
+        return "%s - %s" % (self.name, self.slug)
