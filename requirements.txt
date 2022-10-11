@@ -27,3 +27,4 @@ sqlparse==0.4.2
 tzdata==2022.1
 uritemplate==4.1.1
 urllib3==1.26.9
+PyMySQL~=1.0.2
