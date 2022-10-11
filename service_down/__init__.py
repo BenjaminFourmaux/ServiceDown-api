@@ -1,3 +1,6 @@
-import pymysql
+from service_down import settings
 
-pymysql.install_as_MySQLdb()
+if not settings.DEBUG:
+    import pymysql
+
+    pymysql.install_as_MySQLdb()
