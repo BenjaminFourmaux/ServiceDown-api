@@ -9,6 +9,7 @@ services:
       MYSQL_USER: $DB_USER
       MYSQL_PASSWORD: $DB_PASSWORD
       MYSQL_ROOT_PASSWORD: $DB_ROOT_PASSWORD
+    command: mysql -e "SET GLOBAL log_bin_trust_function_creators = 1"
     ports:
       - '3306:3306'
     expose:
@@ -16,10 +17,7 @@ services:
   api:
     build: .
     container_name: django_container
-    command: bash -c "mysql --user=root --password=$DB_ROOT_PASSWORD localhost --protocol=tcp 
-                      -database=$DB_NAME -e \"SET GLOBAL log_bin_trust_function_creators = 1\" &&
-                      exit &&
-                      pip install -r requirements.txt &&
+    command: bash -c "pip install -r requirements.txt &&
                       python manage.py migrate &&
                       python manage.py runserver 0.0.0.0:8000"
     volumes:
