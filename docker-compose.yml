@@ -5,11 +5,11 @@ services:
     image: mysql:8.0.29
     container_name: db_mysql_container
     environment:
-      MYSQL_DATABASE: 'service-down_api'
-      MYSQL_USER: 'service_down_api'
-      MYSQL_PASSWORD: 'IsTheServiceIsDown8'
-      MYSQL_ROOT_PASSWORD: 'TheRoot_P@ssw0rd'
-    command: bash -c "mysql root $MYSQL_ROOT_PASSWORD &&
+      MYSQL_DATABASE: $DB_NAME
+      MYSQL_USER: $DB_USER
+      MYSQL_PASSWORD: $DB_PASSWORD
+      MYSQL_ROOT_PASSWORD: $DB_ROOT_PASSWORD
+    command: bash -c "mysql root $DB_ROOT_PASSWORD &&
                       SET GLOBAL log_bin_trust_function_creators = 1;"
     ports:
       - '3306:3306'
