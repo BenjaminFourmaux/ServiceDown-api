@@ -17,7 +17,7 @@ services:
   api:
     build: .
     container_name: django_container
-    command: bash -c "pip install -r requirements.txt &&
+    command: bash -c "pip install --no-input -r requirements.txt &&
                       python manage.py migrate &&
                       python manage.py runserver 0.0.0.0:8000"
     volumes:
