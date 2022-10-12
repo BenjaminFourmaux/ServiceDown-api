@@ -9,7 +9,7 @@ services:
       MYSQL_USER: $DB_USER
       MYSQL_PASSWORD: $DB_PASSWORD
       MYSQL_ROOT_PASSWORD: $DB_ROOT_PASSWORD
-    command: bash -c "mysql --user=root --password=$DB_ROOT_PASSWORD $DB_NAME &&
+    command: bash -c "mysql --user=root --password=$DB_ROOT_PASSWORD localhost &&
                       SET GLOBAL log_bin_trust_function_creators = 1;"
     ports:
       - '3306:3306'
@@ -18,7 +18,8 @@ services:
   api:
     build: .
     container_name: django_container
-    command: bash -c "python manage.py migrate &&
+    command: bash -c "pip install -r requirements.txt &&
+                      python manage.py migrate &&
                       python manage.py runserver 0.0.0.0:8000"
     volumes:
       - .:/app
