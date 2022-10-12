@@ -16,9 +16,8 @@ services:
   api:
     build: .
     container_name: django_container
-    command: bash -c "mysql --user=root --password=$DB_ROOT_PASSWORD localhost --protocol=tcp -D $DB_NAME &&
-                      SET GLOBAL log_bin_trust_function_creators = 1; &&
-                      exit &&
+    command: bash -c "mysql --user=root --password=$DB_ROOT_PASSWORD localhost --protocol=tcp 
+                      -D $DB_NAME -e 'SET GLOBAL log_bin_trust_function_creators = 1' &&
                       pip install -r requirements.txt &&
                       python manage.py migrate &&
                       python manage.py runserver 0.0.0.0:8000"
