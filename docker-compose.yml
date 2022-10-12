@@ -9,9 +9,7 @@ services:
       MYSQL_USER: $DB_USER
       MYSQL_PASSWORD: $DB_PASSWORD
       MYSQL_ROOT_PASSWORD: $DB_ROOT_PASSWORD
-    command:
-      - "mysqld"
-      - "--log-bin-trust-function-creators=ON"
+    command:["--log_bin_trust_function_creators=1"]
     ports:
       - '3306:3306'
     expose:
