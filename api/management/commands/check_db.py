@@ -19,7 +19,7 @@ class Command(BaseCommand):
 
         service_name = options['service_name']
         ip = options['ip']
-        port = options['port']
+        port = int(options['port'])
 
         # Infinite loop
         while True:
