@@ -24,5 +24,14 @@ services:
       - .:/app
     ports:
       - '8000:8000'
+    expose:
+      - '8000'
     depends_on:
       - db
+
+  nginx:
+    build: ./nginx
+    ports:
+      - 1337:80
+    depends_on:
+      - api
