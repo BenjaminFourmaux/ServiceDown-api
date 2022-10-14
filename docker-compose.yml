@@ -11,7 +11,7 @@ services:
       MYSQL_ROOT_PASSWORD: $DB_ROOT_PASSWORD
     command: ["--log_bin_trust_function_creators=1"]
     ports:
-      - 3306
+      - 8001
   api:
     build: .
     container_name: django_container
@@ -32,6 +32,7 @@ services:
     ports:
       - 80:80
       - 443:443
+      - 8001:3306
     links:
       - api
       - db

@@ -26,8 +26,8 @@ class Command(BaseCommand):
             sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
             result = sock.connect_ex((ip, port))
             if result == 0:
-                print("{0} port is open! Bye!".format(service_name))
+                print("{0} is running ! Bye".format(service_name))
                 break
             else:
-                print("{0} port is not open! I'll check it soon!".format(service_name))
+                print("{0} is not running ! I'll check it soon!".format(service_name))
                 time.sleep(3)
