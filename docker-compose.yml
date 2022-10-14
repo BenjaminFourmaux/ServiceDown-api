@@ -31,6 +31,7 @@ services:
 
   nginx:
     build: ./nginx
+    container_name: nginx_container
     ports:
       - 1337:80
     depends_on:
