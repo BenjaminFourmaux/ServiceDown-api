@@ -30,9 +30,14 @@ services:
       - db
 
   nginx:
+    image: nginx:latest
     build: ./nginx
     container_name: nginx_container
     ports:
-      - 1337:80
+      - 80:80
+      - 443:443
+    links:
+      - api
+      - db
     depends_on:
       - api
