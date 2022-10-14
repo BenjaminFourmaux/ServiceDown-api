@@ -25,13 +25,27 @@ To install ServiceDown-api, you need to install some things :
 - pip
 - Django 4.0.4
 - Install ``requirements.txt`` with ``pip install -r requirements.txt``
-- Create file ``.env`` in ``ServiceDown_api/service_down`` with properties : ``DEBUG, SECRET_KEY, DB_HOST, DB_PORT, DB_NAME, DB_USER, DB_PASSWORD``
+- Create file ``.env`` in ``ServiceDown_api/service_down`` with properties : 
+  - `DEBUG`: [Boolean] True for dev and False for Prod
+  - `SECRET_KEY`: [String] Django Secret key
+  - `DB_HOST`: [String] IP Address or domain name of database server
+  - `DB_PORT`: [Number] Number of port used by database service
+  - `DB_NAME`: [String] Name of database
+  - `DB_USER`: [String] Name of user
+  - `DB_PASSWORD`: [String] Password of user
+  - `DB_ROOT_PASSWORD` [String] Password for root user (using password: YES)
+
+
 ### Use
 Applied migrations : ``python manage.py migrate``
 \
 Make fixtures (seed database) with custom command : ``python manage.py loadfixtures``
 \
 Run server : ``python manage.py runserver``
+
+#### Using Docker Compose
+- Up containers : (on project root directory) `docker-compose --env-file=service_down/.env up`
+- Down containers : (on project root directory) `docker-compose --env-file=service_down/.env down`
 
 ## Roadmap
 - **v1.1**: Service categories
