@@ -12,8 +12,6 @@ services:
     command: ["--log_bin_trust_function_creators=1"]
     ports:
       - '3306:3306'
-    expose:
-      - '3306'
   api:
     build: .
     container_name: django_container
