@@ -1030,7 +1030,6 @@
             "slug": "forex-dot-com",
             "path": "/status/forex-dot-com",
             "countries": [
-                74,
                 230
             ]
         }
@@ -1194,7 +1193,6 @@
             "slug": "godaddy",
             "path": "/status/godaddy",
             "countries": [
-                74,
                 230
             ]
         }
@@ -1289,9 +1287,9 @@
         "model": "api.service",
         "pk": 104,
         "fields": {
-            "name": "Grand theft auto V",
-            "slug": "gta-v",
-            "path": "/status/gta-v-grand-theft-auto-v",
+            "name": "Grand Theft Auto",
+            "slug": "gta",
+            "path": "/status/grand-theft-auto",
             "countries": [
                 74,
                 230
@@ -1356,7 +1354,6 @@
             "slug": "hbo-max",
             "path": "/status/hbo-max",
             "countries": [
-                74,
                 230
             ]
         }
@@ -1369,7 +1366,6 @@
             "slug": "hostgator",
             "path": "/status/hostgator",
             "countries": [
-                74,
                 230
             ]
         }
@@ -1445,7 +1441,6 @@
             "slug": "interactive-brokers",
             "path": "/status/interactive-brokers",
             "countries": [
-                74,
                 230
             ]
         }
@@ -1521,7 +1516,6 @@
             "slug": "lcg",
             "path": "/status/london-capital-group-lgc",
             "countries": [
-                74,
                 230
             ]
         }
@@ -1660,7 +1654,6 @@
             "slug": "namecheap",
             "path": "/status/namecheap",
             "countries": [
-                74,
                 230
             ]
         }
@@ -1773,7 +1766,6 @@
             "slug": "office-365",
             "path": "/status/office-365",
             "countries": [
-                74,
                 230
             ]
         }
@@ -1953,7 +1945,6 @@
             "slug": "peackock-tv",
             "path": "/status/peackock-tv",
             "countries": [
-                74,
                 230
             ]
         }
@@ -2923,7 +2914,6 @@
             "slug": "xm-trading",
             "path": "/status/xm-trading",
             "countries": [
-                74,
                 230
             ]
         }
@@ -2936,7 +2926,6 @@
             "slug": "xtb-trading",
             "path": "/status/xtb-trading",
             "countries": [
-                74,
                 230
             ]
         }
