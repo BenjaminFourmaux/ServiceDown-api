@@ -4,10 +4,10 @@ from django.db import models
 from rest_framework import viewsets, status
 from rest_framework.decorators import action
 from rest_framework.response import Response
-from api.models import Service, StatsReport1H, StatsReport24H, CurrentStatus
+from api.models import Service, StatsReport1H, StatsReport24H, CurrentStatus, Country
 from api.serializers import ServiceSerializer, ServiceSerializerFields, StatsReport1HSerializer, \
     StatsReport24HSerializer, PagingSerializer, CurrentStatusSerializer, ServiceWithStatusSerializer
-from api.utils import MethodNotAllowed, UrlParameterMissing, ServiceNotFound
+from api.utils import MethodNotAllowed, UrlParameterMissing, ServiceNotFound, SerializerUtils
 from api.utils.check_controls import CheckControlsUtils
 
 
@@ -83,8 +83,17 @@ class ServiceViewSet(viewsets.ModelViewSet):
         # Checkout
         CheckControlsUtils.check_service_country(self.get_object().id, country_id)
 
-        stats_report = StatsReport1H.objects.filter(Q(country__id=country_id) & Q(service=self.get_object())).first()
+        stats_report = StatsReport1H.objects.filter(Q(country=country_id) & Q(service=self.get_object())).first()
+
+        if not stats_report:
+            stats_report = StatsReport1H()
+            stats_report.id = 0
+            stats_report.service = self.get_object()
+            stats_report.country = Country.objects.get(pk=country_id)
+            stats_report = SerializerUtils.emptyStats1H(stats_report)
+
         serializer = StatsReport1HSerializer(stats_report, many=False)
+
         return Response(serializer.data, status=status.HTTP_200_OK)
 
     @action(methods=['GET'], detail=True, url_path='country/(?P<country_id>\w+)/stats_24h', url_name='stats report 24h')
@@ -92,7 +101,16 @@ class ServiceViewSet(viewsets.ModelViewSet):
         # Checkout
         CheckControlsUtils.check_service_country(self.get_object().id, country_id)
 
-        stats_report = StatsReport24H.objects.filter(Q(country__=country_id) & Q(service=self.get_object())).first()
+        stats_report = StatsReport24H.objects.filter(Q(country=country_id) & Q(service=self.get_object())).first()
+
+        if not stats_report:
+            stats_report = StatsReport24H()
+            stats_report.id = 0
+            stats_report.service = self.get_object()
+            stats_report.country = Country.objects.get(pk=country_id)
+            stats_report = SerializerUtils.emptyStats24H(stats_report)
+
         serializer = StatsReport24HSerializer(stats_report, many=False)
+
         return Response(serializer.data, status=status.HTTP_200_OK)
     # </editor-fold>
