@@ -10,6 +10,8 @@ services:
       MYSQL_PASSWORD: $DB_PASSWORD
       MYSQL_ROOT_PASSWORD: $DB_ROOT_PASSWORD
     command: ["--log_bin_trust_function_creators=1"]
+    volumes:
+      - .:/bd/mysql
     ports:
       - 3306:3306
     expose:
