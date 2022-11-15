@@ -42,3 +42,6 @@ services:
       - db
     depends_on:
       - api
+
+volumes:
+  bd-mysql:
