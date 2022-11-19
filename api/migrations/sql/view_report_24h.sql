@@ -1,6 +1,6 @@
 CREATE OR REPLACE VIEW stats_report_24h AS
 SELECT sc.service_id as 'service_id', sc.country_id as 'country_id',
-(SELECT DISTINCT sc.id FROM report r WHERE sc.service_id = r.service_id AND sc.country_id = r.country_id) as 'services_countries_id',
+(SELECT DISTINCT sc.id FROM report r WHERE sc.service_id = r.service_id AND sc.country_id = r.country_id) as 'id',
 (SELECT count(*) FROM report r WHERE r.submittedAt BETWEEN date_sub(NOW(), INTERVAL 24 hour) AND date_sub(NOW(), INTERVAL 23 hour) AND sc.service_id = r.service_id AND sc.country_id = r.country_id) as 'slice1',
 (SELECT count(*) FROM report r WHERE r.submittedAt BETWEEN date_sub(NOW(), INTERVAL 23 hour) AND date_sub(NOW(), INTERVAL 22 hour) AND sc.service_id = r.service_id AND sc.country_id = r.country_id) as 'slice2',
 (SELECT count(*) FROM report r WHERE r.submittedAt BETWEEN date_sub(NOW(), INTERVAL 22 hour) AND date_sub(NOW(), INTERVAL 21 hour) AND sc.service_id = r.service_id AND sc.country_id = r.country_id) as 'slice3',
