@@ -10,19 +10,38 @@ services:
       MYSQL_PASSWORD: $DB_PASSWORD
       MYSQL_ROOT_PASSWORD: $DB_ROOT_PASSWORD
     command: ["--log_bin_trust_function_creators=1"]
+    volumes:
+      - bd-mysql:/var/lib/mysql
     ports:
-      - '3306:3306'
+      - 3306:3306
     expose:
-      - '3306'
+      - 3306
   api:
     build: .
     container_name: django_container
     command: bash -c "python manage.py check_db mysql db 3306 &&
                       python manage.py migrate &&
+                      python manage.py loadfixtures &&
                       python manage.py runserver 0.0.0.0:8000"
     volumes:
       - .:/app
     ports:
-      - '8000:8000'
+      - 8000
     depends_on:
       - db
+
+  nginx:
+    image: nginx:latest
+    build: ./nginx
+    container_name: nginx_container
+    ports:
+      - 80:80
+      - 443:443
+    links:
+      - api
+      - db
+    depends_on:
+      - api
+
+volumes:
+  bd-mysql:
