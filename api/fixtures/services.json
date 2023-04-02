@@ -1615,7 +1615,6 @@
             "slug": "midco",
             "path": "/status/midco",
             "countries": [
-                74,
                 230
             ]
         }
@@ -1826,7 +1825,7 @@
         "pk": 147,
         "fields": {
             "name": "Orange Bank",
-            "slug": "orangebank",
+            "slug": "orange-bank",
             "path": "/status/orange-bank",
             "twitterUsername": "OrangeBankFR",
             "countries": [
@@ -1839,7 +1838,7 @@
         "pk": 148,
         "fields": {
             "name": "Origin EA",
-            "slug": "originea",
+            "slug": "origin-ea",
             "path": "/status/origin-ea",
             "countries": [
                 74,
