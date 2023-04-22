@@ -9,6 +9,8 @@ env = environ.Env(
 )
 ROOT_URLCONF = 'service_down.urls'
 
+USE_TZ = True
+
 # reading .env file
 environ.Env.read_env()
 
