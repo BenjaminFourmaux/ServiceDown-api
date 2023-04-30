@@ -4,6 +4,7 @@ services:
   db:
     image: mysql:8.0.29
     container_name: db_mysql_container
+    restart: always
     environment:
       MYSQL_DATABASE: $DB_NAME
       MYSQL_USER: $DB_USER
@@ -19,6 +20,7 @@ services:
   api:
     build: .
     container_name: django_container
+    restart: always
     command: bash -c "python manage.py check_db mysql db 3306 &&
                       python manage.py migrate &&
                       python manage.py loadfixtures &&
@@ -34,6 +36,7 @@ services:
     image: nginx:latest
     build: ./nginx
     container_name: nginx_container
+    restart: always
     ports:
       - 80:80
       - 443:443
