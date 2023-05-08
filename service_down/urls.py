@@ -35,9 +35,9 @@ router = DefaultRouter(trailing_slash=False)
 
 # Route register
 router.register('test', TestViewSet, basename='pingViewSet')
-router.register('country', CountriesViewSet, basename='countriesViewSet')
-router.register('service', ServicesViewSet, basename='servicesViewSet')
-router.register('report', ReportsViewSet, basename='reportsViewSet')
+router.register('countries', CountriesViewSet, basename='countriesViewSet')
+router.register('services', ServicesViewSet, basename='servicesViewSet')
+router.register('reports', ReportsViewSet, basename='reportsViewSet')
 router.register('search', SearchViewSet, basename='searchViewSet')
 router.register('status', StatusViewSet, basename='statusViewSet')
 
