@@ -1,5 +1,5 @@
 from .test import *
-from .country import *
+from .countries import *
 from .service import *
 from .report import *
 from .search import *

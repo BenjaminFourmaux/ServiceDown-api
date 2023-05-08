@@ -11,7 +11,7 @@ from api.utils import MethodNotAllowed, UrlParameterMissing, ServiceNotFound, Se
 from api.utils.check_controls import CheckControlsUtils
 
 
-class ServiceViewSet(viewsets.ModelViewSet):
+class ServicesViewSet(viewsets.ModelViewSet):
     queryset = Service.objects
     serializer_class = ServiceSerializer
     serializer_fields_class = ServiceSerializerFields

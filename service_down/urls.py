@@ -17,7 +17,7 @@ from django.views.generic import RedirectView
 from drf_yasg.views import get_schema_view
 from drf_yasg import openapi
 from rest_framework.routers import DefaultRouter
-from api.views import TestViewSet, CountryViewSet, ServiceViewSet, ReportViewSet, SearchViewSet, StatusViewSet
+from api.views import TestViewSet, CountriesViewSet, ServicesViewSet, ReportsViewSet, SearchViewSet, StatusViewSet
 from django.urls import path, re_path, include
 
 schema_view = get_schema_view(
@@ -25,7 +25,7 @@ schema_view = get_schema_view(
         title="Service Down API",
         default_version='v1',
         description="Get service status information in real-time",
-        contact=openapi.Contact(email="contact@benjamin-fourmauxb.fr"),
+        contact=openapi.Contact(email="contact@service-down.net"),
     ),
     public=True,
 )
@@ -35,9 +35,9 @@ router = DefaultRouter(trailing_slash=False)
 
 # Route register
 router.register('test', TestViewSet, basename='pingViewSet')
-router.register('country', CountryViewSet, basename='countryViewSet')
-router.register('service', ServiceViewSet, basename='serviceViewSet')
-router.register('report', ReportViewSet, basename='reportViewSet')
+router.register('country', CountriesViewSet, basename='countriesViewSet')
+router.register('service', ServicesViewSet, basename='servicesViewSet')
+router.register('report', ReportsViewSet, basename='reportsViewSet')
 router.register('search', SearchViewSet, basename='searchViewSet')
 router.register('status', StatusViewSet, basename='statusViewSet')
 

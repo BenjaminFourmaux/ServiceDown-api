@@ -8,7 +8,7 @@ from api.utils import MethodNotAllowed
 from api.utils.check_controls import CheckControlsUtils
 
 
-class ReportViewSet(viewsets.ModelViewSet):
+class ReportsViewSet(viewsets.ModelViewSet):
     queryset = Report.objects
     serializer_class = ReportSerializer
 

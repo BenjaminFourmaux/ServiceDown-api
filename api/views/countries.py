@@ -7,7 +7,7 @@ from api.utils import CountryNotAvailable, CountryShortnameNotExist
 from api.utils.check_controls import CheckControlsUtils
 
 
-class CountryViewSet(viewsets.ModelViewSet):
+class CountriesViewSet(viewsets.ModelViewSet):
     queryset = Country.objects
     serializer_class = CountrySerializer
     http_method_names = ['get']
