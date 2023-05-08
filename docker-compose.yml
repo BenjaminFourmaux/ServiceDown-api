@@ -1,6 +1,6 @@
 # ----------------------------------------------------------------
-#          Service Down - IaC - Docker Compose - API
-# @Version: 0.7
+#          Service Down / IaC / Docker Compose / API
+# @Version: 0.8
 # ----------------------------------------------------------------
 version: '3.3'
 
@@ -45,6 +45,9 @@ services:
     build: ./nginx
     container_name: nginx_container
     restart: always
+    volumes:
+      - certibot_vol-www:/var/www/certbot/:ro
+      - certibot_vol-conf:/etc/nginx/ssl/:ro
     ports:
       - 80:80
       - 443:443
@@ -54,11 +57,34 @@ services:
     depends_on:
       - api
 
+  certibot:
+    image: certbot/certbot
+    container_name: certibot
+    depends_on:
+      - nginx
+    volumes:
+      - certibot_vol-www:/var/www/certbot/:rw
+      - certibot_vol-conf:/etc/letsencrypt/:rw
+
 # ----------------------------------------------------------------
 #                    Volumes
 # ----------------------------------------------------------------
 volumes:
   bd-mysql:
+
+  certibot_vol-www:
+    driver: local
+    driver_opts:
+      type: 'none'
+      o: 'bind'
+      device: './nginx/certibot/www/'
+
+  certibot_vol-conf:
+    driver: local
+    driver_opts:
+      type: 'none'
+      o: 'bind'
+      device: './nginx/certibot/conf/'
 
 # ----------------------------------------------------------------
 #                    Networks
